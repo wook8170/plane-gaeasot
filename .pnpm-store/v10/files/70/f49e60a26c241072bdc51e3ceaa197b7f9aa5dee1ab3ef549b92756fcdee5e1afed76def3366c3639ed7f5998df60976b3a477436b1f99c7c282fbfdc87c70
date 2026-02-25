@@ -1,0 +1,27 @@
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
+const browser = require('@sentry/browser');
+const hydratedRouter = require('./hydratedRouter.js');
+
+/**
+ * Browser tracing integration for React Router (Framework) applications.
+ * This integration will create navigation spans and enhance transactions names with parameterized routes.
+ */
+function reactRouterTracingIntegration() {
+  const browserTracingIntegrationInstance = browser.browserTracingIntegration({
+    // Navigation transactions are started within the hydrated router instrumentation
+    instrumentNavigation: false,
+  });
+
+  return {
+    ...browserTracingIntegrationInstance,
+    name: 'ReactRouterTracingIntegration',
+    afterAllSetup(client) {
+      browserTracingIntegrationInstance.afterAllSetup(client);
+      hydratedRouter.instrumentHydratedRouter();
+    },
+  };
+}
+
+exports.reactRouterTracingIntegration = reactRouterTracingIntegration;
+//# sourceMappingURL=tracingIntegration.js.map

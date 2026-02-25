@@ -1,0 +1,25 @@
+{
+  "name": "@rolldown/binding-linux-arm64-gnu",
+  "version": "1.0.0-beta.46",
+  "requiresBuild": false,
+  "files": {
+    "package.json": {
+      "checkedAt": 1771946114608,
+      "integrity": "sha512-MkHlWuADTW+73P1e1wTfLO+EeOvOd/1W9ZBH7a5nwIA8Tl65zowi4UNCkN1FFL5Nxzdvo4w8QV9GTuYHKFvjvg==",
+      "mode": 420,
+      "size": 824
+    },
+    "README.md": {
+      "checkedAt": 1771946114623,
+      "integrity": "sha512-hLXg+bWBQHN1ffSkJ1WfAKPTZvwAvf3U3ob7ilfCFB/a0DjR8eLQDE9eCe8MGRDQyjEnw788iO9NBeAW/Zq02Q==",
+      "mode": 420,
+      "size": 112
+    },
+    "rolldown-binding.linux-arm64-gnu.node": {
+      "checkedAt": 1771946114985,
+      "integrity": "sha512-/jimHeH9xCpt0hvQ5M/8Q/CpVVGD7twA12CnV1ZAPQXHuv5xUc1HybyvJjgGQz8/0VQ5nCV4Fmt1NA6HXTznPQ==",
+      "mode": 420,
+      "size": 18073208
+    }
+  }
+}

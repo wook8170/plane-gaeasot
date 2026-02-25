@@ -1,0 +1,31 @@
+{
+  "name": "@types/dom4",
+  "version": "2.0.4",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946029551,
+      "integrity": "sha512-HQaIQk9pwOcyKutyDk4o2a87WnotwYuLGYFW43emGm4FvIJFKPyg+OYaw5sTegKAKf+C5SKa1ACjzCLivbaHrQ==",
+      "mode": 420,
+      "size": 1141
+    },
+    "README.md": {
+      "checkedAt": 1771946156599,
+      "integrity": "sha512-Gf9+iPgmldjw5siJp+ovk2A03D9J5g34pLcZsQ+DbTn2gGAt1ZwL5kQWAq80ncecoDWaPceObvphIc8lG3LeTA==",
+      "mode": 420,
+      "size": 2325
+    },
+    "index.d.ts": {
+      "checkedAt": 1771946156602,
+      "integrity": "sha512-g6VvFYRI34E6EyQ5k0FjV0k+IWOJ7C1WLiwu2esHtG1cuteIWkfC6pxODdoolLfwmJy5LiFrqninhy30I4orEQ==",
+      "mode": 420,
+      "size": 1700
+    },
+    "package.json": {
+      "checkedAt": 1771946156605,
+      "integrity": "sha512-Mcr7a9RIglRDjhfenFDgMExWSt+j5jvOu3/hX8WR65Tqs54Eyr+9a6apnucUGrVe9Y6lM4O+86Pej5Se8bM+Yg==",
+      "mode": 420,
+      "size": 922
+    }
+  }
+}

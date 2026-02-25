@@ -1,0 +1,25 @@
+{
+  "name": "@oxc-parser/binding-linux-arm64-gnu",
+  "version": "0.99.0",
+  "requiresBuild": false,
+  "files": {
+    "package.json": {
+      "checkedAt": 1771946177775,
+      "integrity": "sha512-HUtmA5RHkWyzub+9EmmZyZlTdENX59pdnqVc0196TaJIuUJY+R0ddU2tYGLvrhXc29szRe2Tr9foAtKOF46q0w==",
+      "mode": 420,
+      "size": 768
+    },
+    "README.md": {
+      "checkedAt": 1771946177789,
+      "integrity": "sha512-3hLecOzTAovwpgapBnZxCq9DtMF/X96gfTqEBLxR0K6AiTKowT1JDjCHaekKjqptiwGGNH8EuOsNyGO0dEjlsw==",
+      "mode": 420,
+      "size": 116
+    },
+    "parser.linux-arm64-gnu.node": {
+      "checkedAt": 1771946177819,
+      "integrity": "sha512-JbZB9+0n1oNBSqNU8tgW67XuT2niRGIWRD5bc6bXgzmC6lXUmlBe733op+VgE2+2Bdd7ZdT13PwfnEg6IbBTwA==",
+      "mode": 420,
+      "size": 2321960
+    }
+  }
+}

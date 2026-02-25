@@ -1,0 +1,7 @@
+import type { Integration } from '@sentry/core';
+/**
+ * Browser tracing integration for React Router (Framework) applications.
+ * This integration will create navigation spans and enhance transactions names with parameterized routes.
+ */
+export declare function reactRouterTracingIntegration(): Integration;
+//# sourceMappingURL=tracingIntegration.d.ts.map

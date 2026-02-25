@@ -1,0 +1,115 @@
+{
+  "name": "@intercom/messenger-js-sdk",
+  "version": "0.0.12",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946188604,
+      "integrity": "sha512-n4YJ6P159y588HjQXgzlKnroDSTcu9gvu19Wvb/e0pQUr94X2NhzdYJ0oOgjmYDbLfUjrXSOYxnFTiwNazetCQ==",
+      "mode": 420,
+      "size": 1065
+    },
+    "REPO_OWNER": {
+      "checkedAt": 1771946188614,
+      "integrity": "sha512-XFbkO2hKqrtFsTstgamujhVErcMalfbSTKpjvjqxxub+3G6iLvFCPCGxOBvG4zWm/yvQ8dorKKFZ3Y41EUn6XQ==",
+      "mode": 420,
+      "size": 19
+    },
+    "dist/constants.js": {
+      "checkedAt": 1771946188626,
+      "integrity": "sha512-NgJDqd5aBlKAQedyaoFnB5sLrp1mOP4l+jMNvH07/8myD3sAknT5ijD2FMxM9ieBzzhMloQ0I4GmzeX6LiwbMw==",
+      "mode": 420,
+      "size": 275
+    },
+    "dist/index.js": {
+      "checkedAt": 1771946188633,
+      "integrity": "sha512-430M+h5omdduN4WSYOO8BAsIV/mXA0LKIwnuGJkflx72nhwVofrCELgkmKOQVqL0fS7j1BpHYseb40k5zjOaGg==",
+      "mode": 420,
+      "size": 4648
+    },
+    "dist/instance-manager.js": {
+      "checkedAt": 1771946188640,
+      "integrity": "sha512-eh96Ao6CoXkIPSSEkmcPpDGsAdGHI8uxsHePNsLgRfIE3kadZXjo3XqhqPfOqswAwGNVV151+rgfCAOfK+wzEw==",
+      "mode": 420,
+      "size": 3234
+    },
+    "jest.config.js": {
+      "checkedAt": 1771946188648,
+      "integrity": "sha512-cLo2wpK6z3exWFTNZg1W3NW3ClYpt92wxZDN7oK62IjhbrRm9PdiCiDa9hSQByxeT2Po6LHuDVLSpdjiZdgKXw==",
+      "mode": 420,
+      "size": 123
+    },
+    "dist/types.js": {
+      "checkedAt": 1771946188652,
+      "integrity": "sha512-f2XGQDoj2T+xSOglmwEtZVKrO/8Xj0p9ap2c7A9gQp/BiZ45tLyozAivx12afHv9sT/DcspjyF6yKwNV601gAA==",
+      "mode": 420,
+      "size": 77
+    },
+    "package.json": {
+      "checkedAt": 1771946188657,
+      "integrity": "sha512-D6r/RgqYxwnu9FGbboo0dm/YVtFRYongqV4Lhqu305eOvZimU65ZXx+0556TJKzonSsHHWHN6eFReXWeUfL9Og==",
+      "mode": 420,
+      "size": 506
+    },
+    "tsconfig.json": {
+      "checkedAt": 1771946188662,
+      "integrity": "sha512-MNkv/2ZGsjjvyEvdp6FiJZd4k+0IcCBIwK0QAFpG8s4O1Sm9ydD/ARGbQaepkRInXADfBzc25omnsJyI9zZkqQ==",
+      "mode": 420,
+      "size": 12286
+    },
+    "README.md": {
+      "checkedAt": 1771946188668,
+      "integrity": "sha512-uEvf+dZx9qHxcYSn7PIvQlg1LXGtSGrG905csA0hoauQWcARHABjgHQxaeeCor5377G9AnFqNajZ0/2WRNKgEw==",
+      "mode": 420,
+      "size": 21473
+    },
+    "dist/constants.d.ts": {
+      "checkedAt": 1771946188673,
+      "integrity": "sha512-DP8Ag6FGpn4VWIvtuWYGpSfaulPld8cK+EuyHaq4wIRssMwwQghpXmiWvGGj/nKbs9Q7Sno/kGLldDUrCEihlQ==",
+      "mode": 420,
+      "size": 111
+    },
+    "constants.ts": {
+      "checkedAt": 1771946188680,
+      "integrity": "sha512-O6g9RpJK/jBDYg5G1Vi8zh5jz86GQp1jygaz7Fhqe9ZWXSGD2iGpbrjKJnYsOx5ODsI7g57YYGEFNS6LpVRQ5g==",
+      "mode": 420,
+      "size": 246
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1771946188685,
+      "integrity": "sha512-+l5w2uvKDHPZnSrS1LkNVPyLyeC69hcok0ZVn+UfGUcPvpFXndaUkBwqkgvjxCwufEKaQ7DDgCk5uWY010ba6A==",
+      "mode": 420,
+      "size": 1398
+    },
+    "index.ts": {
+      "checkedAt": 1771946188692,
+      "integrity": "sha512-fc9sDPpJQZ1UlMGg8LmUIgo7HgUUydMxGyNrORYpEZ8xazGJXcchitK2wzSPDcb4eYRDUlPbO5yOgQ20o2JKqQ==",
+      "mode": 420,
+      "size": 2605
+    },
+    "dist/instance-manager.d.ts": {
+      "checkedAt": 1771946188701,
+      "integrity": "sha512-UneKZ1jw5ixXy9Ct+MzrYiG+aI9/6E+qBGXHaxPEC+K4cuA0GQSUszp1j6aCpDUt1SKBkKyM88pVoab8r0jpBw==",
+      "mode": 420,
+      "size": 199
+    },
+    "instance-manager.ts": {
+      "checkedAt": 1771946188710,
+      "integrity": "sha512-wdGlPAivIgc/1pDJ+Sf7Hby8AgvmOxwUJ/UiZBd5NJLXaqlPfBfv8lKzdjmKdnfsXKggWl1s+AB6A3yN1CWv/w==",
+      "mode": 420,
+      "size": 2119
+    },
+    "dist/types.d.ts": {
+      "checkedAt": 1771946188718,
+      "integrity": "sha512-4K8xYKEqNS3EKc6yaKkyJ7PwOFEaO1JdMY6Qyg0HgqCbYx7SeCVEHjNvvngb5eAT+He+LErglPwhXQOqLn8gjQ==",
+      "mode": 420,
+      "size": 1267
+    },
+    "types.ts": {
+      "checkedAt": 1771946188725,
+      "integrity": "sha512-QFSBv3aIrwQMmRxMOfCZwjAt03iYsVq7UEQ39Q/rPrwJ+Ndc+6rg3vGiSasBfTtT7BV/XV8ofl1tD0QzqQg7Yw==",
+      "mode": 420,
+      "size": 1308
+    }
+  }
+}

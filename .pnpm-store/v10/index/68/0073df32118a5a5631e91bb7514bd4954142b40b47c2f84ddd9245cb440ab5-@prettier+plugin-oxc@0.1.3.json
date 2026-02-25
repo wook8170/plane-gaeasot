@@ -1,0 +1,49 @@
+{
+  "name": "@prettier/plugin-oxc",
+  "version": "0.1.3",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946178842,
+      "integrity": "sha512-yIkGFEOp0mQ4p+NrWO7q6MRGPdI9c8r0mqX6qjdvG+5l0ua9mWKOkpjIcDrs1/P0bFE/e9f/as8qf+eh1EgBzg==",
+      "mode": 420,
+      "size": 1065
+    },
+    "package.json": {
+      "checkedAt": 1771946178848,
+      "integrity": "sha512-IMEZyhO886TGb7YjMb7072Qi6fov29/hNqFuQS+iABy+hSJ0H0wLTm7QwXMH0keShbMdNPFsegXAgLjh0fgNMQ==",
+      "mode": 420,
+      "size": 1005
+    },
+    "README.md": {
+      "checkedAt": 1771946178854,
+      "integrity": "sha512-owZioLMrQYwSgFFkCzYWErzV2swxcQivZUgCcaQ2bUBA8nMmx76tvi8VepI+T+QPSf8eC7Qk6VqkQVPo/z6K3A==",
+      "mode": 420,
+      "size": 922
+    },
+    "THIRD-PARTY-NOTICES.md": {
+      "checkedAt": 1771946178865,
+      "integrity": "sha512-ez+6Rsw/bkhLerL5lCry1LGznV2m50Gx55i/Gq9KTitdgdn5gJyv69utQpv0DvRejm2kxpj0RbA/jMBZtsJaIQ==",
+      "mode": 420,
+      "size": 13995
+    },
+    "index.browser.mjs": {
+      "checkedAt": 1771946178897,
+      "integrity": "sha512-Ql5YbFOKY9NmVsuX6PmtueHyfePWeqrJkmN/4v2UL4cYIuxSj1Z86iQoB7Dlvp3PwQauY9Jm0CePThHTCVa8iw==",
+      "mode": 420,
+      "size": 2669812
+    },
+    "index.mjs": {
+      "checkedAt": 1771946178909,
+      "integrity": "sha512-AErv3I0G9Wr0nyXf+rP4vBzU5OBBLoMmR4O9BN2YuzXtvAl7Qr87hM4GCKdGWHSCaFRVvGsq0Bv6Z0BP2Sn4uA==",
+      "mode": 420,
+      "size": 448531
+    },
+    "index.d.ts": {
+      "checkedAt": 1771946178918,
+      "integrity": "sha512-xMhs5iy8/6zJQ8cqgchcyLtiLPHdSnqEb+hVuXBKC7+yeOSlUi3Fben7EqA2PM7qg+oBrdD7BMZ0vLWK2RHGRA==",
+      "mode": 420,
+      "size": 106
+    }
+  }
+}

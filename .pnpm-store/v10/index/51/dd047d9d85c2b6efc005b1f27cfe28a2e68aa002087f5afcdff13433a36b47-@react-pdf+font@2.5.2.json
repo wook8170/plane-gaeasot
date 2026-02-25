@@ -1,0 +1,43 @@
+{
+  "name": "@react-pdf/font",
+  "version": "2.5.2",
+  "requiresBuild": false,
+  "files": {
+    "lib/index.browser.cjs": {
+      "checkedAt": 1771946107896,
+      "integrity": "sha512-TZHTnCW0qenWdwLD7FIsIWCvzxS3qd5ttLzGiQBsN9V4FkKQMvJBhI2jZUFljlK9CpoeWP773Q+wXnDUN1kGFw==",
+      "mode": 420,
+      "size": 6977
+    },
+    "lib/index.cjs": {
+      "checkedAt": 1771946107908,
+      "integrity": "sha512-jZSpZHCzcmQ30Udlg/nbQRrCJ2mzv9QTh1p/4BOgIVwwM0C9zarrqUBFGh61nEamemtxv3+VA6OUg4qhUGdNog==",
+      "mode": 420,
+      "size": 7179
+    },
+    "lib/index.browser.js": {
+      "checkedAt": 1771946107919,
+      "integrity": "sha512-jsIXxGZNWA4AX83BIhGuCG2IgJTYHZIi+VSP61jB16qCxKlJ9IhFj3pR6OqmhwLbM5U5Qpeeaq2DJs8yUl4/BQ==",
+      "mode": 420,
+      "size": 6140
+    },
+    "lib/index.js": {
+      "checkedAt": 1771946107929,
+      "integrity": "sha512-rAWvrEpEp/d5bBzGPLLl4iiRxHwyTt0diwvIEs5W2O0t9ogfyWC4l9klfJRCBXDTlk/Xn6gf1Csv3JTggc6LJQ==",
+      "mode": 420,
+      "size": 6249
+    },
+    "package.json": {
+      "checkedAt": 1771946107959,
+      "integrity": "sha512-Uo64rHKtVClQU/X6MI5CSoaTaHLZ+sZb4E/jlZGB0Kizosefsz4xDxlQ6eNAUb8r4NTnY572a9XHKj8EZD119Q==",
+      "mode": 420,
+      "size": 1066
+    },
+    "README.md": {
+      "checkedAt": 1771946107969,
+      "integrity": "sha512-RJKdgkG+VNmpYDmT10WQxU3+vqOVV3m5L17czCKNf+I4Z6tSJLp8dHgfkQp09KD9Z0kP0Q5KpkjzF9Q3iX8ftQ==",
+      "mode": 420,
+      "size": 172
+    }
+  }
+}

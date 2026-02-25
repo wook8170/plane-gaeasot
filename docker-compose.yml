@@ -1,38 +1,64 @@
 services:
+  setup:
+    container_name: setup
+    image: node:22-bookworm-slim
+    working_dir: /app
+    command: /bin/sh -c "npm install -g pnpm && pnpm install --frozen-lockfile"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    restart: "no"
+
   web:
     container_name: web
-    build:
-      context: .
-      dockerfile: ./apps/web/Dockerfile.web
-      args:
-        DOCKER_BUILDKIT: 1
+    image: node:22-bookworm-slim
+    working_dir: /app
     restart: always
+    command: /bin/sh -c "npm install -g pnpm && pnpm run dev --filter=web -- --host 0.0.0.0"
+    environment:
+      - HOST=0.0.0.0
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
     depends_on:
-      - api
+      setup:
+        condition: service_completed_successfully
+      api:
+        condition: service_started
 
   admin:
     container_name: admin
-    build:
-      context: .
-      dockerfile: ./apps/admin/Dockerfile.admin
-      args:
-        DOCKER_BUILDKIT: 1
+    image: node:22-bookworm-slim
+    working_dir: /app
     restart: always
+    command: /bin/sh -c "npm install -g pnpm && pnpm run dev --filter=admin -- --host 0.0.0.0"
+    environment:
+      - HOST=0.0.0.0
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
     depends_on:
-      - api
-      - web
+      setup:
+        condition: service_completed_successfully
+      api:
+        condition: service_started
 
   space:
     container_name: space
-    build:
-      context: .
-      dockerfile: ./apps/space/Dockerfile.space
-      args:
-        DOCKER_BUILDKIT: 1
+    image: node:22-bookworm-slim
+    working_dir: /app
     restart: always
+    command: /bin/sh -c "npm install -g pnpm && pnpm run dev --filter=space -- --host 0.0.0.0"
+    environment:
+      - HOST=0.0.0.0
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
     depends_on:
-      - api
-      - web
+      setup:
+        condition: service_completed_successfully
+      api:
+        condition: service_started
 
   api:
     container_name: api
@@ -42,9 +68,11 @@ services:
       args:
         DOCKER_BUILDKIT: 1
     restart: always
-    command: ./bin/docker-entrypoint-api.sh
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./apps/api:/code
     env_file:
-      - ./apps/api/.env
+      - .env
     depends_on:
       - plane-db
       - plane-redis
@@ -57,9 +85,11 @@ services:
       args:
         DOCKER_BUILDKIT: 1
     restart: always
-    command: ./bin/docker-entrypoint-worker.sh
+    command: /bin/bash -c "pip install watchfiles && watchfiles 'python manage.py worker'"
+    volumes:
+      - ./apps/api:/code
     env_file:
-      - ./apps/api/.env
+      - .env
     depends_on:
       - api
       - plane-db
@@ -75,7 +105,7 @@ services:
     restart: always
     command: ./bin/docker-entrypoint-beat.sh
     env_file:
-      - ./apps/api/.env
+      - .env
     depends_on:
       - api
       - plane-db
@@ -91,7 +121,7 @@ services:
     restart: no
     command: ./bin/docker-entrypoint-migrator.sh
     env_file:
-      - ./apps/api/.env
+      - .env
     depends_on:
       - plane-db
       - plane-redis
@@ -104,14 +134,24 @@ services:
       args:
         DOCKER_BUILDKIT: 1
     restart: always
+    env_file:
+      - .env
+    environment:
+      API_BASE_URL: http://api:8000
+      WEB_BASE_URL: http://web:3000
+      REDIS_URL: redis://plane-redis:6379/0
+    ports:
+      - 9003:1234 # 실시간 서버
 
   plane-db:
     container_name: plane-db
     image: postgres:15.7-alpine
     restart: always
     command: postgres -c 'max_connections=1000'
+    ports:
+      - ${DB_PORT:-9010}:5432
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - ./docker_data/db:/var/lib/postgresql/data
     env_file:
       - .env
     environment:
@@ -124,13 +164,18 @@ services:
     container_name: plane-redis
     image: valkey/valkey:7.2.11-alpine
     restart: always
+    ports:
+      - ${REDIS_PORT_HOST:-9011}:6379
     volumes:
-      - redisdata:/data
+      - ./docker_data/redis:/data
 
   plane-mq:
     container_name: plane-mq
     image: rabbitmq:3.13.6-management-alpine
     restart: always
+    ports:
+      - ${RABBITMQ_PORT_HOST:-9012}:5672
+      - ${RABBITMQ_MGMT_PORT:-9013}:15672
     env_file:
       - .env
     environment:
@@ -138,20 +183,24 @@ services:
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
       RABBITMQ_DEFAULT_VHOST: ${RABBITMQ_VHOST}
     volumes:
-      - rabbitmq_data:/var/lib/rabbitmq
+      - ./docker_data/rabbitmq:/var/lib/rabbitmq
 
   plane-minio:
     container_name: plane-minio
     image: minio/minio
     restart: always
     command: server /export --console-address ":9090"
+    ports:
+      - ${MINIO_PORT:-9005}:9000
+      - ${MINIO_CONSOLE_PORT:-9006}:9090
     volumes:
-      - uploads:/export
+      - ./docker_data/uploads:/export
     environment:
       MINIO_ROOT_USER: ${AWS_ACCESS_KEY_ID}
       MINIO_ROOT_PASSWORD: ${AWS_SECRET_ACCESS_KEY}
+      MINIO_SERVER_URL: http://localhost:9000
+      MINIO_REGION_NAME: us-east-1
 
-  # Comment this if you already have a reverse proxy running
   proxy:
     container_name: proxy
     build:
@@ -159,11 +208,14 @@ services:
       dockerfile: Dockerfile.ce
     restart: always
     ports:
-      - ${LISTEN_HTTP_PORT}:80
-      - ${LISTEN_HTTPS_PORT}:443
+      - ${LISTEN_HTTP_PORT:-9000}:80
+      - ${LISTEN_HTTPS_PORT:-9443}:443
+    env_file:
+      - .env
     environment:
-      FILE_SIZE_LIMIT: ${FILE_SIZE_LIMIT:-5242880}
-      BUCKET_NAME: ${AWS_S3_BUCKET_NAME:-uploads}
+      - SITE_ADDRESS=${SITE_ADDRESS:-:80}
+      - FILE_SIZE_LIMIT=${FILE_SIZE_LIMIT:-5242880}
+      - BUCKET_NAME=${AWS_S3_BUCKET_NAME:-uploads}
     depends_on:
       - web
       - api
@@ -171,7 +223,4 @@ services:
       - admin
 
 volumes:
-  pgdata:
-  redisdata:
-  uploads:
-  rabbitmq_data:
+  node_modules:

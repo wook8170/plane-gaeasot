@@ -219,6 +219,8 @@ export default {
   security: "보안",
   activity: "활동",
   appearance: "외관",
+  preferences: "기본 설정",
+  language_and_time: "언어 및 시간",
   notifications: "알림",
   workspaces: "작업 공간",
   create_workspace: "작업 공간 생성",
@@ -231,6 +233,8 @@ export default {
   something_went_wrong_please_try_again: "문제가 발생했습니다. 다시 시도해주세요.",
   load_more: "더 보기",
   select_or_customize_your_interface_color_scheme: "인터페이스 색상 테마를 선택하거나 사용자 정의하세요.",
+  timezone_setting: "현재 시간대 설정입니다.",
+  language_setting: "사용자 인터페이스에서 사용할 언어를 선택하세요.",
   theme: "테마",
   system_preference: "시스템 기본값",
   light: "라이트",
@@ -1522,6 +1526,10 @@ export default {
   },
   account_settings: {
     profile: {
+      actions: {
+        preferences: "기본 설정",
+        "api-tokens": "API 토큰",
+      },
       change_email_modal: {
         title: "이메일 변경",
         description: "확인 링크를 받으려면 새 이메일 주소를 입력하세요.",
@@ -1559,6 +1567,25 @@ export default {
           sending: "전송 중…",
         },
       },
+    },
+    preferences: {
+      heading: "기본 설정",
+      description: "나의 작업 방식에 맞춰 앱 경험을 최적화하세요",
+    },
+    notifications: {
+      heading: "이메일 알림",
+      description: "구독 중인 작업 항목의 소식을 이메일로 받아보세요",
+    },
+    security: {
+      heading: "보안",
+    },
+    api_tokens: {
+      heading: "개인 액세스 토큰",
+      description: "외부 시스템 및 애플리케이션과 데이터를 통합하기 위한 보안 API 토큰을 생성합니다",
+    },
+    activity: {
+      heading: "활동",
+      description: "모든 프로젝트와 작업 항목에서의 최근 활동 내역을 확인합니다",
     },
   },
   workspace_settings: {
@@ -1783,7 +1810,9 @@ export default {
       security: "보안",
       activity: "활동",
       appearance: "외관",
+      preferences: "기본 설정",
       notifications: "알림",
+      "api-tokens": "API 토큰",
     },
     tabs: {
       summary: "요약",

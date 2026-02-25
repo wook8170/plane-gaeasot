@@ -1,0 +1,235 @@
+{
+  "name": "@fontsource/material-symbols-rounded",
+  "version": "5.2.30",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946086047,
+      "integrity": "sha512-2R1Sf2TPkmDGvdTrZKZsAkkWV6YlARkc3AgPak0ex1rE66Lqnfl4hg8kZ3dRdkJ3R92txY42r4sybYamdaF01Q==",
+      "mode": 420,
+      "size": 4314
+    },
+    "100.css": {
+      "checkedAt": 1771946086058,
+      "integrity": "sha512-PzNPjWmeAQ50DC4/QrGE5noRoHfx8vbHxR4VRG0xFK5GoN/m+5CWStfF/S3NjtDARFgE7q6uHTNkZp8k4Lsn9w==",
+      "mode": 420,
+      "size": 330
+    },
+    "200.css": {
+      "checkedAt": 1771946086068,
+      "integrity": "sha512-0EO9ZT8HGV3M+OhPhwJ2P9Sc27KbF9432uA5FA0FKig6P+1LeE5yTShL+JDodzWVtVgUQs/xcN6yFsLdTg8WwA==",
+      "mode": 420,
+      "size": 330
+    },
+    "300.css": {
+      "checkedAt": 1771946086109,
+      "integrity": "sha512-95vQWYgBu1FOARqczYgT85BFYqCscMFkBZ382KJeoQ7f4lgj0b0hgj3TjbdwpRQagx40jPVEVVYQNpDHAf7Iag==",
+      "mode": 420,
+      "size": 330
+    },
+    "400.css": {
+      "checkedAt": 1771946086120,
+      "integrity": "sha512-iNpHS+Pmaja7wcWTl1PMHrawz3uYiorfzxgnwmGSsBCYzNh+Nz36erngIcp8ePuYJqUBFqKtin7T00K5hhwDfw==",
+      "mode": 420,
+      "size": 330
+    },
+    "500.css": {
+      "checkedAt": 1771946086137,
+      "integrity": "sha512-8VdTt+ADvqyhePw8BK3ZjqtjN0TJ2iTBFWDJyALGtfedY0gGS8655/CwrrOGlJIwAJ4KqeLTCBXbV0KW3XI/zg==",
+      "mode": 420,
+      "size": 330
+    },
+    "600.css": {
+      "checkedAt": 1771946086153,
+      "integrity": "sha512-897YaTZ6SGLi5qKFRbJRXejzJS0hROi20euFoDPoVvdjip/envlgfLvm3nRK3d1rA2e1lYSz8Gx/Bxp5oz/mRA==",
+      "mode": 420,
+      "size": 330
+    },
+    "700.css": {
+      "checkedAt": 1771946086166,
+      "integrity": "sha512-RQ9qhXDgTSlowdDge+/FyzOeJcEUPiC08T6kJQ25IAkIVh99tNw/E8lL2kQJ8ei0jybxkcEsUS6LB34NnzR4pA==",
+      "mode": 420,
+      "size": 330
+    },
+    "index.css": {
+      "checkedAt": 1771946086180,
+      "integrity": "sha512-S2+9bMbXNdPJ3h0gsu7/IrGNaf5x52UyQfRaCBzFn/UoCg91qcuRsO89oq1jr9MtHNbTs49AYdilqUfdD5ms8g==",
+      "mode": 420,
+      "size": 1326
+    },
+    "latin-100.css": {
+      "checkedAt": 1771946086190,
+      "integrity": "sha512-PzNPjWmeAQ50DC4/QrGE5noRoHfx8vbHxR4VRG0xFK5GoN/m+5CWStfF/S3NjtDARFgE7q6uHTNkZp8k4Lsn9w==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-200.css": {
+      "checkedAt": 1771946086201,
+      "integrity": "sha512-0EO9ZT8HGV3M+OhPhwJ2P9Sc27KbF9432uA5FA0FKig6P+1LeE5yTShL+JDodzWVtVgUQs/xcN6yFsLdTg8WwA==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-300.css": {
+      "checkedAt": 1771946086205,
+      "integrity": "sha512-95vQWYgBu1FOARqczYgT85BFYqCscMFkBZ382KJeoQ7f4lgj0b0hgj3TjbdwpRQagx40jPVEVVYQNpDHAf7Iag==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-400.css": {
+      "checkedAt": 1771946086213,
+      "integrity": "sha512-iNpHS+Pmaja7wcWTl1PMHrawz3uYiorfzxgnwmGSsBCYzNh+Nz36erngIcp8ePuYJqUBFqKtin7T00K5hhwDfw==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-500.css": {
+      "checkedAt": 1771946086217,
+      "integrity": "sha512-8VdTt+ADvqyhePw8BK3ZjqtjN0TJ2iTBFWDJyALGtfedY0gGS8655/CwrrOGlJIwAJ4KqeLTCBXbV0KW3XI/zg==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-600.css": {
+      "checkedAt": 1771946086221,
+      "integrity": "sha512-897YaTZ6SGLi5qKFRbJRXejzJS0hROi20euFoDPoVvdjip/envlgfLvm3nRK3d1rA2e1lYSz8Gx/Bxp5oz/mRA==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin-700.css": {
+      "checkedAt": 1771946086230,
+      "integrity": "sha512-RQ9qhXDgTSlowdDge+/FyzOeJcEUPiC08T6kJQ25IAkIVh99tNw/E8lL2kQJ8ei0jybxkcEsUS6LB34NnzR4pA==",
+      "mode": 420,
+      "size": 330
+    },
+    "latin.css": {
+      "checkedAt": 1771946086239,
+      "integrity": "sha512-aw8R3sYyptbUxkiP0bcojR/mJhc471j2SC5n9cW/s/USs35ZSldU2540Tsgut+siwitY1cfmcukiRmeoG2Wlyw==",
+      "mode": 420,
+      "size": 2322
+    },
+    "metadata.json": {
+      "checkedAt": 1771946086248,
+      "integrity": "sha512-rbyCci+vzuTTqWj0u2V/hyUCtJ9uEGOLTwYgPxiLTsmChSTwFtOcHBMSonAUwZE59n2llpyVV1XbCJrUNOuRLQ==",
+      "mode": 420,
+      "size": 763
+    },
+    "package.json": {
+      "checkedAt": 1771946086256,
+      "integrity": "sha512-o288+3yJk+WZjBk9tBQlkMjFIpriyeFqtsPGZd1CbH81gWKNZY6+sUEJgxLSymaexIZ+TqFYs/s6ibBISKLL7A==",
+      "mode": 420,
+      "size": 1479
+    },
+    "unicode.json": {
+      "checkedAt": 1771946086266,
+      "integrity": "sha512-N32UbzuYMRlg092ZKx/Pelbyyf8pFeypJR4sJy6P69tOj//QfD+kGor7sOfRjfkyXb+8o0p8RuTjye5F+lzNcg==",
+      "mode": 420,
+      "size": 176
+    },
+    "CHANGELOG.md": {
+      "checkedAt": 1771946086274,
+      "integrity": "sha512-Ck2ol1EUX8zxXNKhzUwVL0Sp9OKGc3Va3yBxpCmEee+XkRlXb3XtVtQ/MGlwtWoA2X95g98AjzCmx9UrjFQ5Kw==",
+      "mode": 420,
+      "size": 111
+    },
+    "README.md": {
+      "checkedAt": 1771946086279,
+      "integrity": "sha512-BvNrZW9UGHKSsNfG9xXbeTVF4wWheo50hUAfwtcssCiufqY0mK1lb5H/lGqn6SkYdtdobs/murAtowpYyf0+yg==",
+      "mode": 420,
+      "size": 2671
+    },
+    "scss/metadata.scss": {
+      "checkedAt": 1771946086285,
+      "integrity": "sha512-qtLDJasACbpFi6BOd49UK7vBS0zPrE2eFwZ5YESrZU1DviCpRldolwYgqQW8/V8X0Jgcsa12tyuK6wqaI16ppA==",
+      "mode": 420,
+      "size": 650
+    },
+    "scss/mixins.scss": {
+      "checkedAt": 1771946086291,
+      "integrity": "sha512-muaUNXU778d2L/nD0PHBPawfyyvqKVbkNqqQX0D4VGXYLOKpV+TJ/HiBqwgZ3ijx8MWRCgNVxC6ZULF2Skem9w==",
+      "mode": 420,
+      "size": 6041
+    },
+    "files/material-symbols-rounded-latin-100-normal.woff": {
+      "checkedAt": 1771946086305,
+      "integrity": "sha512-LwK6TWYlhM9bID3CLZK1vTxL/Ada65RPKcEJz8LRFAP3YmdqsFW77EQ8wdzQIrORnphv/cbtp4+ge7Xb+MvV/Q==",
+      "mode": 420,
+      "size": 485692
+    },
+    "files/material-symbols-rounded-latin-200-normal.woff": {
+      "checkedAt": 1771946086316,
+      "integrity": "sha512-umEi5VRDgOyLqmGB4C2ldR25K4b6KaZtlNUiSeAghcQ7aEpl11CDNazetgrhNbYWeBVJEAecrMG/V7BGCkDwQA==",
+      "mode": 420,
+      "size": 507908
+    },
+    "files/material-symbols-rounded-latin-300-normal.woff": {
+      "checkedAt": 1771946086339,
+      "integrity": "sha512-LNUx90rqojopMYTlJilyPT3YKWQtDexmqi8X6p7O+hWT1T3TRzK7yLQrg1s+IihPsvPorn+ZWhyu4F3y7WYi5w==",
+      "mode": 420,
+      "size": 506700
+    },
+    "files/material-symbols-rounded-latin-400-normal.woff": {
+      "checkedAt": 1771946086376,
+      "integrity": "sha512-GfdGMlDFf516ozSCq3vMh72AdmVqwIANxvS4/pT/xa4DQlnbRslwqELWk/VfjyHNKUsUvWWLZc9SioFSS/mRyQ==",
+      "mode": 420,
+      "size": 454560
+    },
+    "files/material-symbols-rounded-latin-500-normal.woff": {
+      "checkedAt": 1771946086396,
+      "integrity": "sha512-kF1GgpWDLuXLHM3n9P/l4SONZP/pnuO4cKsLuq5tXeEW71vPohbeqTireJEQ/EpBAB4/hsKROQiNhQ3/V2UFOw==",
+      "mode": 420,
+      "size": 504924
+    },
+    "files/material-symbols-rounded-latin-600-normal.woff": {
+      "checkedAt": 1771946086408,
+      "integrity": "sha512-kUm8HEJmEM7vMHJTH9ilTYe+j5XxAVOqHC/9dVeUZqF9GQPqIDHneU9yxO8G+uTLzgU1LUmv79K3EMq7W0JVKA==",
+      "mode": 420,
+      "size": 509712
+    },
+    "files/material-symbols-rounded-latin-700-normal.woff": {
+      "checkedAt": 1771946086424,
+      "integrity": "sha512-1LPJnWSkJgVItrmBzJjVwAGk735lXGT1zlmpPp8RRqdlanJ+zDl3brKSy/QHen29Y+yiHBY+YBo6bvnjlEcnbg==",
+      "mode": 420,
+      "size": 496136
+    },
+    "files/material-symbols-rounded-latin-100-normal.woff2": {
+      "checkedAt": 1771946086434,
+      "integrity": "sha512-7Z8ohGknT28pqgOr6b25LjmSmTWPMw0MCVAVwcuGgaUwa6Tq1dgTKb2+b4M8lMRwjSTWAvukCBbi3zn9yOC09Q==",
+      "mode": 420,
+      "size": 363564
+    },
+    "files/material-symbols-rounded-latin-200-normal.woff2": {
+      "checkedAt": 1771946086445,
+      "integrity": "sha512-fOPXHmpkrBGMSFc+/rX32FlNMpXroeVXM2wvkcZ5ZDbrF7pT8Uvqgv+HkI+SxG71h71V0CObwRS62U/5+BcCyA==",
+      "mode": 420,
+      "size": 389092
+    },
+    "files/material-symbols-rounded-latin-300-normal.woff2": {
+      "checkedAt": 1771946086456,
+      "integrity": "sha512-8h5UrDPXCYQQE6rUbc3gIOoKGL1Gbviv6TmGIC5/UxKS5Ehqc0Mnp0eg7U2HtocwPspJBHrvsF11gC1FDraueQ==",
+      "mode": 420,
+      "size": 388056
+    },
+    "files/material-symbols-rounded-latin-400-normal.woff2": {
+      "checkedAt": 1771946086464,
+      "integrity": "sha512-bhVlRQ+vIQ7ioWz/zzUuvsnTj6kOURCnncC5aiz1P5/O2mXZrOWIJ0JFR1Vr6vMgvbBVmSn5M1d0OBZYoxhnIw==",
+      "mode": 420,
+      "size": 348776
+    },
+    "files/material-symbols-rounded-latin-500-normal.woff2": {
+      "checkedAt": 1771946086472,
+      "integrity": "sha512-PresAeHKY9SRpDZ6JuZaTSAl+l1aQpXZddMzuTtuV227pbou3j5kP6QvVhXarObiqaj98ckdvvpa7a/Bf+0ygg==",
+      "mode": 420,
+      "size": 394648
+    },
+    "files/material-symbols-rounded-latin-600-normal.woff2": {
+      "checkedAt": 1771946086486,
+      "integrity": "sha512-dHUSd3/HI909wqFebe1Axi1JTNj5O0dTlsqXtKQhtYm8WOobqE2Y4FeByLA/r5WJiOS9fez2hV7o6Lu3ShVOuw==",
+      "mode": 420,
+      "size": 400388
+    },
+    "files/material-symbols-rounded-latin-700-normal.woff2": {
+      "checkedAt": 1771946086503,
+      "integrity": "sha512-a0zNjqLQmzKTLBRSobcz1LjYi2k2jPueIuUbOk4owX72qyzYbkKB7MtbMMEtam27fMG0Xpue0EbDYJDJ7ceVsA==",
+      "mode": 420,
+      "size": 387064
+    }
+  }
+}

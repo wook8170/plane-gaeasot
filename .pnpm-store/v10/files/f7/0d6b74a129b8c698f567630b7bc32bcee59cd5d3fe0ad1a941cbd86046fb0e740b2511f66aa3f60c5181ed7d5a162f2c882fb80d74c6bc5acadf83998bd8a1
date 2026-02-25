@@ -1,0 +1,1 @@
+{"version":3,"file":"createSentryHandleError.d.ts","sourceRoot":"","sources":["../../../src/server/createSentryHandleError.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAsB,mBAAmB,EAAsB,MAAM,cAAc,CAAC;AAEhG,MAAM,MAAM,wBAAwB,GAAG;IACrC,SAAS,CAAC,EAAE,OAAO,CAAC;CACrB,CAAC;AAEF;;;;GAIG;AACH,wBAAgB,uBAAuB,CAAC,EAAE,SAAiB,EAAE,EAAE,wBAAwB,GAAG,mBAAmB,CA0B5G"}

@@ -1,0 +1,31 @@
+{
+  "name": "@react-pdf/primitives",
+  "version": "3.1.1",
+  "requiresBuild": false,
+  "files": {
+    "lib/index.cjs": {
+      "checkedAt": 1771946109721,
+      "integrity": "sha512-OkVAbjTlBiDC/jkZMy64M7c5urPh2UuhCZuQtblo8/+HFtGlAnn8jRWuWMuUEyQHKZsXxvSiuRwELdpDD7QgcA==",
+      "mode": 420,
+      "size": 1421
+    },
+    "src/index.js": {
+      "checkedAt": 1771946109732,
+      "integrity": "sha512-polnLPJNS/AlrsjS+MmmOdwiUs3WwP3dnu1i4G3wbNiqm2OYwey0G6NyFqCMVDtyXnuEA3ULPxX5Adh69Ny/1A==",
+      "mode": 420,
+      "size": 772
+    },
+    "package.json": {
+      "checkedAt": 1771946109739,
+      "integrity": "sha512-ULPZf95tNTtlmbsSlG2cL2tu5z5vqYPjW05ne2DPmY6MBHT5T0w7OojlJRvS1mKpcyff9MxBhqf5vAGMmn0j8w==",
+      "mode": 420,
+      "size": 805
+    },
+    "README.md": {
+      "checkedAt": 1771946109747,
+      "integrity": "sha512-b93LDkUbEhNSCcw544/Cye+AlwNKzH07TnouL+Pde0J2oHGT1vHnl0jLhoblI69s33UxJBafvRjYEMvk3qxleg==",
+      "mode": 420,
+      "size": 178
+    }
+  }
+}

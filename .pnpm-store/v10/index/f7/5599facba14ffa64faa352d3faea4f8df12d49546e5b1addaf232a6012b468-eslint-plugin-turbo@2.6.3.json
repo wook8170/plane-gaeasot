@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-turbo",
+  "version": "2.6.3",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946186626,
+      "integrity": "sha512-b+6xg8upbbVjNDwep+HkMhMPrmISEG0mtW/ftCwbkTX++jaGzZQPvpBVhxVsQTpaPrvQuhKY/SpzO98mJW3sqw==",
+      "mode": 420,
+      "size": 1055
+    },
+    "dist/index.js": {
+      "checkedAt": 1771946186644,
+      "integrity": "sha512-l5S/W1Cl/hHDFZZjFkXiHOGQ9DOfN3enAfPQKpVDspxC91XXlL/yLWvIfXbB7BzbFT6/llCKWb7hDzOAYXjnXQ==",
+      "mode": 420,
+      "size": 442637
+    },
+    "README.md": {
+      "checkedAt": 1771946186656,
+      "integrity": "sha512-VcJu6zreM6JXyUuFdBqRu12CKqsau1mcEA7l+0HZ1w+mCOzr//zH1/vKv25M4gz8Zg0pEMCpeLKqjV6ZW1PRuw==",
+      "mode": 420,
+      "size": 1592
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1771946186667,
+      "integrity": "sha512-SnSDHA+yf0K1iActMcd2kAouXXbnMCgUMXNOj7EScP0lqNbMystXefB9mK/ozV5xTheekBDxlmBwpla/jbe3Ng==",
+      "mode": 420,
+      "size": 2411
+    },
+    "package.json": {
+      "checkedAt": 1771946186681,
+      "integrity": "sha512-el9OIYX2+dAg3FQ3wDHOfS8Q/7uLqUXm0w4P01GKu0/APMD26Q/hcEXj+0cVwZfWl1tFGldk88te42XRev38JA==",
+      "mode": 420,
+      "size": 1342
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "name": "@react-pdf/renderer",
+  "version": "3.4.5",
+  "requiresBuild": false,
+  "files": {
+    "lib/react-pdf.browser.cjs": {
+      "checkedAt": 1771946108429,
+      "integrity": "sha512-KJPip33i/C2VTgjvvIOFw0QPvZoQisN4sN0l1il8zKhLo8x6vHhCxzyXBDCjAzMmPPWkeSn6Tpo4TPJXccQGzg==",
+      "mode": 420,
+      "size": 141739
+    },
+    "lib/react-pdf.browser.min.cjs": {
+      "checkedAt": 1771946108438,
+      "integrity": "sha512-N43Nb9z4ZkoJGDX7tsLiXRXBrOlfGHEOpW8EJgrs8wsN3lDleMEAqfc9nchWrbuuPPeQ3U5k05ZmcEcy+RAkyQ==",
+      "mode": 420,
+      "size": 81097
+    },
+    "lib/react-pdf.cjs": {
+      "checkedAt": 1771946108452,
+      "integrity": "sha512-3SAUZan/d+w1EV30dl4zjYTj/Vigw4HLl5bPTGQlXxpIVG9HynV/ET1BnhCMEHpOrhxjcM2Gu0KCVt7cjib1pg==",
+      "mode": 420,
+      "size": 139247
+    },
+    "lib/react-pdf.min.cjs": {
+      "checkedAt": 1771946108462,
+      "integrity": "sha512-1Tm8LPSfNY0kFw/h8EATessU2Q22yNu8EYxOkEnhaSkdgMmrVDTX+VeRA/COlCaAS76DzSSihh8nJOTE5aveow==",
+      "mode": 420,
+      "size": 80056
+    },
+    "lib/react-pdf.browser.d.cts": {
+      "checkedAt": 1771946108473,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.browser.min.d.cts": {
+      "checkedAt": 1771946108479,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.d.cts": {
+      "checkedAt": 1771946108485,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.min.d.cts": {
+      "checkedAt": 1771946108492,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.browser.js": {
+      "checkedAt": 1771946108509,
+      "integrity": "sha512-TOtpUjQ8RIGClK0R4mcyy5M0KoRNwiBx8VYCP7WOVWMISFam9P4/YYhTXhUcmPUcvprX0erICyZKd15Ct0uwRA==",
+      "mode": 420,
+      "size": 139704
+    },
+    "lib/react-pdf.browser.min.js": {
+      "checkedAt": 1771946108520,
+      "integrity": "sha512-LBcTgEWfLi4Ina69cf1EfTLb55wZrrvaYom0vrYwS5W9ynXu83jbiQWBAhOPJ6lz1CSMy7EFcvrKXmDWmI5VRw==",
+      "mode": 420,
+      "size": 80358
+    },
+    "lib/react-pdf.js": {
+      "checkedAt": 1771946108533,
+      "integrity": "sha512-0hT3AF97VyLV4rs4a+xL8t+/ZfPw7ghSM+EHTagNmS0cpC+cP3thpv2qssOwMviHJY4RX09m4eZKc7uiDcyacg==",
+      "mode": 420,
+      "size": 137282
+    },
+    "lib/react-pdf.min.js": {
+      "checkedAt": 1771946108542,
+      "integrity": "sha512-sokWlyO4QuVur3CRQRtcxYnDONtcqdjD3NOzJ2HTl9hn9LfOrzU5FwPkDdhFieSY0LBC8cjwd8RLbNPeEcHfPg==",
+      "mode": 420,
+      "size": 79336
+    },
+    "package.json": {
+      "checkedAt": 1771946108551,
+      "integrity": "sha512-nL/cWDOjJ9RmmDXfYiITkETUPS9UnlCgfSHX2VYkB0dN8K+E06Xk5CO6+jEFhonL0f9xUVwjEbZ7YMkptg3E9Q==",
+      "mode": 420,
+      "size": 2045
+    },
+    "lib/react-pdf.browser.cjs.map": {
+      "checkedAt": 1771946108571,
+      "integrity": "sha512-G2L6kbqNYcHKTDgIPODDOBY9lGAX2WsfR0JgFNi/d2s1iSO9txPFoQkE9JoJjJSvRXwPFBL4yqN17PCgZ9hi5A==",
+      "mode": 420,
+      "size": 308685
+    },
+    "lib/react-pdf.browser.js.map": {
+      "checkedAt": 1771946108585,
+      "integrity": "sha512-4+YZTp+7ljmFKh4echofW4etuom1HT5m9YnQqcVSz2LUSd7o0/8+z0RkKfBIRzuK5PSW8+tsojiZNyTT6gJ4Qg==",
+      "mode": 420,
+      "size": 308613
+    },
+    "lib/react-pdf.cjs.map": {
+      "checkedAt": 1771946108601,
+      "integrity": "sha512-brrq1Wo834Fdcwk3kHcmZldJth6IUPvZfi9gtBgGLZX2wevayqortgWQbggjw0YRi1pJykEbxninBD9Di7f2XA==",
+      "mode": 420,
+      "size": 302545
+    },
+    "lib/react-pdf.js.map": {
+      "checkedAt": 1771946108611,
+      "integrity": "sha512-TsXLo9o9LnGJaK8OZWlI53uh/spbbnIGYLkPlPt4mGyziYUcPooJTwnDZgWsoZTjd/HsT95Xsq+5i5DdaHaIwQ==",
+      "mode": 420,
+      "size": 302481
+    },
+    "README.md": {
+      "checkedAt": 1771946108621,
+      "integrity": "sha512-4nozr7FfdMsj/InCRa5ISu/K6QdD4EkN7QhWhTDMuf9bD57ykpT85oRXNVyA7Cty0otdkbECX5IOT7oBbijgmQ==",
+      "mode": 420,
+      "size": 5395
+    },
+    "index.d.ts": {
+      "checkedAt": 1771946108625,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.browser.d.ts": {
+      "checkedAt": 1771946108633,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.browser.min.d.ts": {
+      "checkedAt": 1771946108637,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.d.ts": {
+      "checkedAt": 1771946108641,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    },
+    "lib/react-pdf.min.d.ts": {
+      "checkedAt": 1771946108646,
+      "integrity": "sha512-ECuCnX04D0S1fl0+hzWygQke+UAqBYDNatO2JyLbRg1utFxliBjHVcsrUCjfSFT+g2/A00ez5jkXgnj5GfY4cQ==",
+      "mode": 420,
+      "size": 16997
+    }
+  }
+}

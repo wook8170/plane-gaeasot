@@ -1,0 +1,29 @@
+import { makeConfigInjectorPlugin } from './makeConfigInjectorPlugin.js';
+import { makeCustomSentryVitePlugins } from './makeCustomSentryVitePlugins.js';
+import { makeEnableSourceMapsPlugin } from './makeEnableSourceMapsPlugin.js';
+
+/**
+ * A Vite plugin for Sentry that handles source map uploads and bundle size optimizations.
+ *
+ * @param options - Configuration options for the Sentry Vite plugin
+ * @param viteConfig - The Vite user config object
+ * @returns An array of Vite plugins
+ */
+async function sentryReactRouter(
+  options = {},
+  viteConfig,
+) {
+  const plugins = [];
+
+  plugins.push(makeConfigInjectorPlugin(options));
+
+  if (process.env.NODE_ENV !== 'development' && viteConfig.command === 'build' && viteConfig.mode !== 'development') {
+    plugins.push(makeEnableSourceMapsPlugin(options));
+    plugins.push(...(await makeCustomSentryVitePlugins(options)));
+  }
+
+  return plugins;
+}
+
+export { sentryReactRouter };
+//# sourceMappingURL=plugin.js.map

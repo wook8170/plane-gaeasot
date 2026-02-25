@@ -1,0 +1,31 @@
+{
+  "name": "@react-pdf/fns",
+  "version": "2.2.1",
+  "requiresBuild": false,
+  "files": {
+    "lib/index.cjs": {
+      "checkedAt": 1771946108584,
+      "integrity": "sha512-LTmnVj/bP1S0t4mbyQK+4beuLCI4X/1xXKrIK/ICGMR01UQfZmC1cSdMuuJQizWIKPGyw+kwvdeR1D8jb8i2Pg==",
+      "mode": 420,
+      "size": 7770
+    },
+    "lib/index.js": {
+      "checkedAt": 1771946108593,
+      "integrity": "sha512-QdpLNV2IV/Th9CacJEuSyzMj1LltsUjbmHymQ6wOekULslSqw+pIgPS/vFWS41eDkkpUZYJ+79GG+GE5OpNcVg==",
+      "mode": 420,
+      "size": 7105
+    },
+    "package.json": {
+      "checkedAt": 1771946108602,
+      "integrity": "sha512-xbLWefRtGRzctDWtVLyXYMb4I/cF4mhdsdPsbJBk+rLCMihCE3w31OcjLiv0VpYZit7100ZTWErPrHVecgxWmQ==",
+      "mode": 420,
+      "size": 808
+    },
+    "README.md": {
+      "checkedAt": 1771946108611,
+      "integrity": "sha512-/0aWsJrdwyNSX/g+nyQyI6C4v0QPOlUegT2d2HPKIz3wdAU9CVTdJWyXu1JIyqVyWqaTv8bnVscAk46G9KSLDA==",
+      "mode": 420,
+      "size": 255
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@napi-rs/canvas-linux-arm64-musl",
+  "version": "0.1.80",
+  "requiresBuild": false,
+  "files": {
+    "package.json": {
+      "checkedAt": 1771946117603,
+      "integrity": "sha512-aOp/D5h2qlPsuaLsxUjWC1gOKyjXn8NcGdR2RkXVacQ9dPfQ9qaJgigb5n6zQ4RttgMQnLxLEcw2onBa9gqJ8w==",
+      "mode": 420,
+      "size": 733
+    },
+    "README.md": {
+      "checkedAt": 1771946117620,
+      "integrity": "sha512-dQ8ChvoNswktvSmtcNW0Zs11dDHWS+H/fdao1Qy66yuMAxmWYJTdoSct0GdQzvGJwpAeVAa+OHxdnprXkXedZQ==",
+      "mode": 420,
+      "size": 110
+    },
+    "skia.linux-arm64-musl.node": {
+      "checkedAt": 1771946118614,
+      "integrity": "sha512-lKQohHbcL8aLW/h1I6LINfNgRCnkl0UoQJ7/G4637LiEZxLXPdtLR3J0tDgNpVUhSsfZwe0ek0OPZQMPkFFcNA==",
+      "mode": 420,
+      "size": 24723056
+    }
+  }
+}

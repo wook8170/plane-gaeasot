@@ -1,0 +1,25 @@
+{
+  "name": "@sentry/cli-linux-arm64",
+  "version": "2.58.2",
+  "requiresBuild": false,
+  "files": {
+    "bin/sentry-cli": {
+      "checkedAt": 1771946091369,
+      "integrity": "sha512-F9VRusNKLGTwFwZrrNN/LGQpllXU3Oc5xQ8U2W5gnxgFMd1lCcSle2vnQrwToCOLPU39GOFV/tfP97yb8oUdDA==",
+      "mode": 493,
+      "size": 19096624
+    },
+    "package.json": {
+      "checkedAt": 1771946091381,
+      "integrity": "sha512-5uO9ym0gOUSLyqVDPALp0H6gJXu5adMRugwsfNr3DdflsLZF9xHbL1lol4WG2R7ynUV2W53lMjGhTpYxPEj01Q==",
+      "mode": 420,
+      "size": 399
+    },
+    "README.md": {
+      "checkedAt": 1771946091395,
+      "integrity": "sha512-CO/pM3CI3jS5uYuCR7jKvtvPKawGx+PFpcr4eQ+z0GJPkQT4p9/JB0YB2nhgQgO0QeMcSWT/565W14LEnvFn/w==",
+      "mode": 420,
+      "size": 414
+    }
+  }
+}

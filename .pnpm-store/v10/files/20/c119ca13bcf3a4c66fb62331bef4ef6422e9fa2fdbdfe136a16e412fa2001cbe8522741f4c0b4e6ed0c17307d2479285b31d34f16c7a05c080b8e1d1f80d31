@@ -1,0 +1,43 @@
+{
+  "name": "@prettier/plugin-oxc",
+  "version": "0.1.3",
+  "description": "Prettier Oxc plugin.",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "browser": "./index.browser.mjs",
+      "default": "./index.mjs"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prettier/prettier.git",
+    "directory": "packages/plugin-oxc"
+  },
+  "funding": "https://github.com/prettier/prettier?sponsor=1",
+  "homepage": "https://github.com/prettier/prettier/tree/main/packages/plugin-oxc",
+  "author": "fisker Cheung <lionkay@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "commonjs",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "THIRD-PARTY-NOTICES.md",
+    "index.browser.mjs",
+    "index.d.ts",
+    "index.mjs",
+    "package.json"
+  ],
+  "dependencies": {
+    "oxc-parser": "0.99.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,57 @@
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
+const semanticConventions = require('@opentelemetry/semantic-conventions');
+const core = require('@sentry/core');
+const node = require('@sentry/node');
+const reactRouter = require('../instrumentation/reactRouter.js');
+
+const INTEGRATION_NAME = 'ReactRouterServer';
+
+const instrumentReactRouter = node.generateInstrumentOnce(INTEGRATION_NAME, () => {
+  return new reactRouter.ReactRouterInstrumentation();
+});
+
+const instrumentReactRouterServer = Object.assign(
+  () => {
+    instrumentReactRouter();
+  },
+  { id: INTEGRATION_NAME },
+);
+
+/**
+ * Integration capturing tracing data for React Router server functions.
+ */
+const reactRouterServerIntegration = core.defineIntegration(() => {
+  return {
+    name: INTEGRATION_NAME,
+    setupOnce() {
+      if (
+        (node.NODE_VERSION.major === 20 && node.NODE_VERSION.minor < 19) || // https://nodejs.org/en/blog/release/v20.19.0
+        (node.NODE_VERSION.major === 22 && node.NODE_VERSION.minor < 12) // https://nodejs.org/en/blog/release/v22.12.0
+      ) {
+        instrumentReactRouterServer();
+      }
+    },
+    processEvent(event) {
+      // Express generates bogus `*` routes for data loaders, which we want to remove here
+      // we cannot do this earlier because some OTEL instrumentation adds this at some unexpected point
+      if (
+        event.type === 'transaction' &&
+        event.contexts?.trace?.data &&
+        event.contexts.trace.data[semanticConventions.ATTR_HTTP_ROUTE] === '*' &&
+        // This means the name has been adjusted before, but the http.route remains, so we need to remove it
+        event.transaction !== 'GET *' &&
+        event.transaction !== 'POST *'
+      ) {
+        // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
+        delete event.contexts.trace.data[semanticConventions.ATTR_HTTP_ROUTE];
+      }
+
+      return event;
+    },
+  };
+});
+
+exports.instrumentReactRouterServer = instrumentReactRouterServer;
+exports.reactRouterServerIntegration = reactRouterServerIntegration;
+//# sourceMappingURL=reactRouterServer.js.map

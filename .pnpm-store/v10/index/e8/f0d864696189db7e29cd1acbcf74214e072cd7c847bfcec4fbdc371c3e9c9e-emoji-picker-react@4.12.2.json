@@ -1,0 +1,1153 @@
+{
+  "name": "emoji-picker-react",
+  "version": "4.12.2",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946118677,
+      "integrity": "sha512-YGJOQtuzQ5IF5Y/Hk0YO5hBsTQGmag0nRxWoX2WMurRd7hChXfww6mLa8hog+DqToDqTW+cfZx5k/kq76yYMAg==",
+      "mode": 420,
+      "size": 1062
+    },
+    "dist/emoji-picker-react.cjs.development.js": {
+      "checkedAt": 1771946118690,
+      "integrity": "sha512-6Aijfp/GdioIv52opMMg0ifiIOmb3N9FwHOiexu+yEUBmTCKAaocZx2eyO9ay9INnXc7o0pFeyhYS/eaNPEahQ==",
+      "mode": 420,
+      "size": 392447
+    },
+    "dist/emoji-picker-react.cjs.production.min.js": {
+      "checkedAt": 1771946118705,
+      "integrity": "sha512-8Gu4wz19NYUVk0wphc+5ZCTGQz7giNaY4ILC6lIoRV/VJdgaDk4OdOxObmEODiJdG7AzbMyJiVuyvHxqBkRm2g==",
+      "mode": 420,
+      "size": 255896
+    },
+    "dist/emoji-picker-react.esm.js": {
+      "checkedAt": 1771946118721,
+      "integrity": "sha512-1hTph9Y6Gghz26vVspYPygSwEkKKpnlrKuRBdgsz8uMCvlXNZ96SgYKsRbv8DZNIK7nQc9ETC64Mrx1wMjY1hQ==",
+      "mode": 420,
+      "size": 390490
+    },
+    "dist/index.js": {
+      "checkedAt": 1771946118730,
+      "integrity": "sha512-jgy4/e0Spq15zJYCez71eQ+wyL/Swc3fZq77pK5HgWzxJvqkIF9cpS2dB7cQ22b5HeCd3hSarKg0YmNLkydVDw==",
+      "mode": 420,
+      "size": 214
+    },
+    "src/data/emojis.json": {
+      "checkedAt": 1771946118750,
+      "integrity": "sha512-JUqznbpqlNY9cU+wGh/WiHvWazOPBwowqi3jixZSbQeVbEkLoT6H5SqK6pgjoe7U55sL5AF1LJ9Q08F8zEhfQw==",
+      "mode": 420,
+      "size": 153911
+    },
+    "package.json": {
+      "checkedAt": 1771946118762,
+      "integrity": "sha512-ImSDZWWGWQVP4d7XAc1W6iH3/7V3lBvWLZEUaFOGpmQcBFXCxJq+X1zPVsp62kZ5q8ZVqXLn0xpdNdccb1nY0A==",
+      "mode": 420,
+      "size": 2967
+    },
+    "dist/emoji-picker-react.cjs.development.js.map": {
+      "checkedAt": 1771946118782,
+      "integrity": "sha512-yt/S0U0xmAXr/J+Di90jaKKZ4atvH+F5HxHh3MLCkCeWQFinHsCEmHZh66LC7cV6MbgYtr8xaCSa1z2Lqtsqlw==",
+      "mode": 420,
+      "size": 320069
+    },
+    "dist/emoji-picker-react.cjs.production.min.js.map": {
+      "checkedAt": 1771946118805,
+      "integrity": "sha512-euegiQYtnQ0d4Mg1/z3IFO8KkvqHKPHJ7j3XAytWoqkVzTHJKPboQmeQt7fSsFTP/YWx9mtFsWClgpNe1wo2mg==",
+      "mode": 420,
+      "size": 247612
+    },
+    "dist/emoji-picker-react.esm.js.map": {
+      "checkedAt": 1771946118847,
+      "integrity": "sha512-5GVlCSWRfQhBIiGAQSc+MCBHWpg/cWQaSRdc7edLreEHV8Ni3V4DxlvtzTiDUOET78eFwXRIVcsUcIGyGz0SYg==",
+      "mode": 420,
+      "size": 319958
+    },
+    "README.md": {
+      "checkedAt": 1771946118868,
+      "integrity": "sha512-jij8hQfD08cak3WVZkPbaJPisFjfqA5xKz5naNmo//ziIW8E1VTmyt8hZaTuaPivTPJm9Zie3pIVm5ZQEJiGBg==",
+      "mode": 420,
+      "size": 20427
+    },
+    "src/components/navigation/svg/CategoryNav.svg": {
+      "checkedAt": 1771946118880,
+      "integrity": "sha512-C2AYOe6adIe/3E64f8Vb6eYOnUb77NNVVp8b29kr3V4Qi+ulhUSOJrND409NBXIZi1jU+jwi1WaRdCeQQMFTMw==",
+      "mode": 420,
+      "size": 31963
+    },
+    "src/components/header/Search/svg/magnifier.svg": {
+      "checkedAt": 1771946118892,
+      "integrity": "sha512-6Fvy2M5zlJLiGzO8jYW6Z6JxONvsZv0oxdSPL4eFHSwpSP5avY2C74v7LeY7kpIiX8tq6JJOmgm0E6Z7JRl6GA==",
+      "mode": 420,
+      "size": 1216
+    },
+    "src/components/Reactions/svg/plus.svg": {
+      "checkedAt": 1771946118905,
+      "integrity": "sha512-8TyPsseBMPHKz5c0opdusa+t1ovmywVXOJFnojSsOr0K0Id/t6ThxKSjOLzzPWR+yAsB8MiKecP/BlF1BArgaw==",
+      "mode": 420,
+      "size": 1569
+    },
+    "src/components/header/Search/svg/times.svg": {
+      "checkedAt": 1771946118925,
+      "integrity": "sha512-hl2JrAeNAcGZ14zotBX8KhwKFQ/LPYyd1jh7wuW1FxNLZ177c/0y9xwvKcZZK7PXKJrGKE6/nj4bMdbd1+ICNw==",
+      "mode": 420,
+      "size": 3121
+    },
+    "src/components/body/svg/triangle.svg": {
+      "checkedAt": 1771946118944,
+      "integrity": "sha512-mmz6mNOKduD0nruqPagy14gmcA/KsNGyz4R7li/opytCbB3ReSkZ6+eetCigkoLCNkBkz2WLsS5WgJTMB7iYpQ==",
+      "mode": 420,
+      "size": 660
+    },
+    "dist/components/Layout/Absolute.d.ts": {
+      "checkedAt": 1771946118996,
+      "integrity": "sha512-bJW7Fvojz+wCDQKSud+O+WYYmTLdhtkGVOmrh5xdTWJiUUHPgLxIHk4cI2jk2DK+gfurvsdAQ2CHXk3BCy575g==",
+      "mode": 420,
+      "size": 261
+    },
+    "dist/dataUtils/alphaNumericEmojiIndex.d.ts": {
+      "checkedAt": 1771946119010,
+      "integrity": "sha512-b25Km2woyKVzpmdq05RGQFJ1JadO4cXbZcGztTUaMn/LxiZt89804E7nubHP7Db4BJkjJgjLF8h+vGZtfD6pAQ==",
+      "mode": 420,
+      "size": 241
+    },
+    "src/dataUtils/alphaNumericEmojiIndex.ts": {
+      "checkedAt": 1771946119038,
+      "integrity": "sha512-v/5E45x+t4STqdpImX2HIjrqgWIdXlJtbGhfhAyxW9KHShwpwuc3ATmCpHzdIXmJhuPu+oqJYSO1s4Y61GwbcA==",
+      "mode": 420,
+      "size": 761
+    },
+    "dist/components/emoji/BaseEmojiProps.d.ts": {
+      "checkedAt": 1771946119055,
+      "integrity": "sha512-WuxhvfPs2BgGQgLmiuOJqgJWWbRDG+LBjdCUzgE25zB/RRSgXkDyRMqao+WCILOxV9PyPnvdoq+KrZpZsozvfg==",
+      "mode": 420,
+      "size": 493
+    },
+    "src/components/emoji/BaseEmojiProps.ts": {
+      "checkedAt": 1771946119072,
+      "integrity": "sha512-skhSFfOdJn2J7zipwN7P62l+hVm6REw2an2Xswwv5D6MU/QMYWUDqs3pkaq7SZh41kfNJ7dZkbQIX6ID7s3yHA==",
+      "mode": 420,
+      "size": 451
+    },
+    "dist/components/body/Body.d.ts": {
+      "checkedAt": 1771946119093,
+      "integrity": "sha512-q6AZwiRFAdD5cxc5VDq6ild+c5xi9Qs2MZmQNTgHjksGYXAa5J8eJQa8xotSm2HCtTQUTnpVgguOnRKInJkuCA==",
+      "mode": 420,
+      "size": 79
+    },
+    "dist/components/header/Search/BtnClearSearch.d.ts": {
+      "checkedAt": 1771946119115,
+      "integrity": "sha512-e8HIQZoqsL8+0HCM7ZNICK0kAorcbItjkXEm0DzKzgo4wejZcUuM8T5jUro2yTcvGHpcw/RltrE6Zt3xf0MzmQ==",
+      "mode": 420,
+      "size": 89
+    },
+    "dist/components/Reactions/BtnPlus.d.ts": {
+      "checkedAt": 1771946119134,
+      "integrity": "sha512-sGAo7B+AB2gHjeqkVKLVT7oA2bJk+zy01mDn81vMw3nyojdDVhelEnN83E1T+TVIKzHkPqBwrrPqyk6vWTt4Ww==",
+      "mode": 420,
+      "size": 82
+    },
+    "dist/components/header/SkinTonePicker/BtnSkinToneVariation.d.ts": {
+      "checkedAt": 1771946119147,
+      "integrity": "sha512-8b7FvXNgTt/FL2XjcdgCbc+ZJS1derUpesHRybmNk75QNmGUHgM9tpykLJOqk/c3eqakE+uv3lMIVP+B0mFj8A==",
+      "mode": 420,
+      "size": 396
+    },
+    "dist/components/atoms/Button.d.ts": {
+      "checkedAt": 1771946119159,
+      "integrity": "sha512-uJ/PLrFQFrltDWJc462sVn6IqXJjxlR1Q8HB+UvPOKAmCbMM+1alxlTyYt2s/SUYGbOzsuy0pmM30xpASUl60Q==",
+      "mode": 420,
+      "size": 250
+    },
+    "dist/components/navigation/CategoryButton.d.ts": {
+      "checkedAt": 1771946119174,
+      "integrity": "sha512-4B/kzcNO0HOoJgWPb9YCT2yd5xNRqdolch+q6VNr2gWz1TCdPEcjcX++5XaegG8ldzhbkb73zoLKVyxGvY8z8Q==",
+      "mode": 420,
+      "size": 420
+    },
+    "dist/config/categoryConfig.d.ts": {
+      "checkedAt": 1771946119206,
+      "integrity": "sha512-L/X/v4O/WqyzMvGlgg2LEY0A4jnuodW+U9wwtEbnUBsnQuGkKsjjy7CSTiSqhg82AL5tjiyfrwozlYDADZg67A==",
+      "mode": 420,
+      "size": 1002
+    },
+    "src/config/categoryConfig.ts": {
+      "checkedAt": 1771946119219,
+      "integrity": "sha512-G42jZtjZfObLS1Rdi4/eh/lzrBIF12/ooklV+LxoVEnzfRRMv14tMD5QKmz/z9YYyNFHZEUirsjEvNaShzZVDg==",
+      "mode": 420,
+      "size": 3246
+    },
+    "dist/DomUtils/categoryNameFromDom.d.ts": {
+      "checkedAt": 1771946119227,
+      "integrity": "sha512-gAQTO2wwbHLCGioYldqk/qJWx26BkttDCNpiRc9MD0SacNJW/gwT2rawEzAKnXs6T9TuaSG69I1hm7EtwiE0Kg==",
+      "mode": 420,
+      "size": 88
+    },
+    "src/DomUtils/categoryNameFromDom.ts": {
+      "checkedAt": 1771946119245,
+      "integrity": "sha512-ttVP5SJ7JmP6LfBzMdNyB1h+2gRFwUq09CGcRXOtIl0qn+ORUQ8/RhCxl/h0rojjMDK74S+nJ4sddIeCg9KA3Q==",
+      "mode": 420,
+      "size": 137
+    },
+    "dist/components/navigation/CategoryNavigation.d.ts": {
+      "checkedAt": 1771946119258,
+      "integrity": "sha512-+s9WvV4Ns1sfCJYIDBycX0+l2tFiRjGs8W3An0RRORzpRSD4bbYJ4Fd2pkhQPQEHYDDI3rnBWtS4qRqMkymakA==",
+      "mode": 420,
+      "size": 93
+    },
+    "dist/config/cdnUrls.d.ts": {
+      "checkedAt": 1771946119270,
+      "integrity": "sha512-rdKku1iGMn1A6p7lAw93Ft4SffR8CGTUcz1h0/OJRY+4JGjUNaUSlLF4gmQzrJRq0K8gTC5fXAlCwdo5TbM05Q==",
+      "mode": 420,
+      "size": 118
+    },
+    "src/config/cdnUrls.ts": {
+      "checkedAt": 1771946119283,
+      "integrity": "sha512-9eC8D5G+HnagINf7rT3SKIVbG+FaxImC8dpNFAJHVny1UmMbPXx6EFqPKYp6p7HjYFgXMgX4BYBnTmvfwqSGnw==",
+      "mode": 420,
+      "size": 776
+    },
+    "dist/DomUtils/classNames.d.ts": {
+      "checkedAt": 1771946119294,
+      "integrity": "sha512-gB8VRVMEa4KRR37pnUaNXqvTc41FIEOSvacigbWgTTBuLL9UbDo8GnI7bV5htLjTWUnhKv7e300dp5uogEUHZA==",
+      "mode": 420,
+      "size": 850
+    },
+    "src/DomUtils/classNames.ts": {
+      "checkedAt": 1771946119305,
+      "integrity": "sha512-98YeDhNzbs1SU7TivHk/P645NDH/oOx0qY80u9njvUrkIfelp/zlcMfO+pIJRfvZB6tvc/6gv8gYxZ6dUZS3Kg==",
+      "mode": 420,
+      "size": 823
+    },
+    "dist/components/emoji/ClickableEmojiButton.d.ts": {
+      "checkedAt": 1771946119321,
+      "integrity": "sha512-+iEsEt67kSplZABJIPaW98/XOnRgcKfdn/efx+ak1YsCUx7N06Axf4OYvyy92p1N639XxzQVTGOyKg18707JWg==",
+      "mode": 420,
+      "size": 555
+    },
+    "dist/config/compareConfig.d.ts": {
+      "checkedAt": 1771946119345,
+      "integrity": "sha512-ueqvbYylG/h5tzYoD/nPyrh2DNMNefO3iQ1XLjB4rK8zaafgzAGibgn2gWUPgzTHaqjZLsCWdY0FDxaGjhrNcw==",
+      "mode": 420,
+      "size": 131
+    },
+    "src/config/compareConfig.ts": {
+      "checkedAt": 1771946119364,
+      "integrity": "sha512-099GMgARpXmG0mE9HyrH2Vl0VfIU4O4hgX3cbLeuuX6Wwm2G6ueFarROEcNFxnTkjYo/f9tbpqoYIevNSLOJ9A==",
+      "mode": 420,
+      "size": 1196
+    },
+    "dist/config/config.d.ts": {
+      "checkedAt": 1771946119404,
+      "integrity": "sha512-XCnXEEXqJbWaJ2BW/iLAF08EpHglsCcXmNdzRIiJaxAs2I431B6WY/TO3JJdf5KatJs4ejEfqJlCgAvjX4CeIA==",
+      "mode": 420,
+      "size": 2407
+    },
+    "src/config/config.ts": {
+      "checkedAt": 1771946119437,
+      "integrity": "sha512-fT06yAuCL/Jd2xEZBRfMbXesFFnta25Keb9gyGTcionze01Zr6sAaHbTaNFvW9KcpVV/FcNYOvw2/ISC4NZlCw==",
+      "mode": 420,
+      "size": 4224
+    },
+    "dist/components/header/Search/CssSearch.d.ts": {
+      "checkedAt": 1771946119447,
+      "integrity": "sha512-4Az2K4d/oww6eCQsQoO78DOWbR2n+qPJPmf2H1dkkyfu85lCI38zjB7b6GKMCtksjpNhq7wRrHCLY6XRh/oN6A==",
+      "mode": 420,
+      "size": 138
+    },
+    "dist/config/customEmojiConfig.d.ts": {
+      "checkedAt": 1771946119458,
+      "integrity": "sha512-Q2aqzEx//2ddgF0wJbmkpvt56SAdnt3mPhyph6/SsjyIA+NkMRC/IaOMINLJiID5bxg4/BcZ8u+gUH+AGYag0Q==",
+      "mode": 420,
+      "size": 178
+    },
+    "src/config/customEmojiConfig.ts": {
+      "checkedAt": 1771946119469,
+      "integrity": "sha512-Hv01gokeHqbLlO3op72jSXj6X1ndxZsLB8rcG2FaPXFbsQAXpQtXm7jayC+FsqvQ175yFf7Ppaa+X+KmLrqSJA==",
+      "mode": 420,
+      "size": 159
+    },
+    "dist/dataUtils/DataTypes.d.ts": {
+      "checkedAt": 1771946119489,
+      "integrity": "sha512-8lBz6H8BFKmDltUXAXQwO4I43/tunzGYvHHefdTPpYvOfBmDjG1cdnv3VlD9DbxxcrqCo2fkyRpnbznZf4QTzw==",
+      "mode": 420,
+      "size": 580
+    },
+    "src/dataUtils/DataTypes.ts": {
+      "checkedAt": 1771946119505,
+      "integrity": "sha512-0ZQsq/ryg8HkwXoSzFjzziHFYimH/pkU5pU4x8+ujJwpnh+dEM3lA7y8jQNf7lL/Ape4N+rWOBIgsAmlumdRig==",
+      "mode": 420,
+      "size": 514
+    },
+    "dist/components/Reactions/DEFAULT_REACTIONS.d.ts": {
+      "checkedAt": 1771946119522,
+      "integrity": "sha512-DuEhFGfeqTsMheJGj1eU4emGpfH00KXgxZL7iaYurBf47sjiyiZynuSIPOJIVfalHvdRPemdUImp83PnuLsWug==",
+      "mode": 420,
+      "size": 51
+    },
+    "src/components/Reactions/DEFAULT_REACTIONS.ts": {
+      "checkedAt": 1771946119535,
+      "integrity": "sha512-DMdZ1ThK9t2r3t4qk4s8GmDe+kEPxeQW5SwreJcIHl3U4V66p2WEKn0nn1RxP+URS8wgO5ImiBemkRWdSqXBcA==",
+      "mode": 420,
+      "size": 176
+    },
+    "dist/DomUtils/detectEmojyPartiallyBelowFold.d.ts": {
+      "checkedAt": 1771946119547,
+      "integrity": "sha512-vO++zm2L3W6WL3lWEL1VzWEQAHh4x7bH3tKLA51aKVzlEQgzLlvJxnt5foE6tkbMxvLyALiiummXdoODfTlcNQ==",
+      "mode": 420,
+      "size": 165
+    },
+    "src/DomUtils/detectEmojyPartiallyBelowFold.ts": {
+      "checkedAt": 1771946119556,
+      "integrity": "sha512-ooycAKFxvkn7Hb6U+k+VGQqYre1o7Uus8xcxIOMbWRPu8ZDMk1z9l+dH7G49qdDc0aq5svOKe01ouPcJR9iXdA==",
+      "mode": 420,
+      "size": 436
+    },
+    "dist/DomUtils/elementPositionInRow.d.ts": {
+      "checkedAt": 1771946119570,
+      "integrity": "sha512-8xhoIerXABuTcCN5kuEiTqf91IGszsbrFkdyr9NBNXO+M+f+5VsKYYkZI5PHtt5mVyoZkqxA7ueNWyY2b73fUA==",
+      "mode": 420,
+      "size": 1124
+    },
+    "src/DomUtils/elementPositionInRow.ts": {
+      "checkedAt": 1771946119600,
+      "integrity": "sha512-9PcEXXSk/irAJw1VFIHDu4ukMnDiFbihHtgkVGIRuNGFmJEo1QV8WxkPI5eKZ0f0JN0jIFfWh80Ea1ZMGnP0aQ==",
+      "mode": 420,
+      "size": 5290
+    },
+    "dist/components/context/ElementRefContext.d.ts": {
+      "checkedAt": 1771946119609,
+      "integrity": "sha512-Q9pwsmJaxwvSEH3erwZxnbUaiXM5BFMZX92UF/o3SFzMN4nOfYcxbLJXEoVSGYwssnPhjCoOC9sxp+92eliSkA==",
+      "mode": 420,
+      "size": 998
+    },
+    "dist/components/emoji/Emoji.d.ts": {
+      "checkedAt": 1771946119623,
+      "integrity": "sha512-hN4cr2vcpRBhIsYKGhTJZkCE0st1+AOBOwf5p+6rmnqVfhU0ENJGsJAL6plf1GWRe8/iLHDBvfLC9wMOq4lzuQ==",
+      "mode": 420,
+      "size": 585
+    },
+    "dist/components/body/EmojiCategory.d.ts": {
+      "checkedAt": 1771946119638,
+      "integrity": "sha512-v9vXlsXkI93W7QzTwrIewr7uTpxPIopFR55mhasQB96oyY3b0SJ4dKNLftrYDo5YCZ3bwohV6g94kwLpO9zMpw==",
+      "mode": 420,
+      "size": 384
+    },
+    "dist/components/emoji/EmojiImg.d.ts": {
+      "checkedAt": 1771946119670,
+      "integrity": "sha512-+kF+kF0JOD59KoWegE4IPe9BXZHNPtmgrwDsW3u1I1vAC9Ac38JTmSo9EOSn5AbO4RavK4cNYhzsa9PwtWxHUQ==",
+      "mode": 420,
+      "size": 386
+    },
+    "dist/components/body/EmojiList.d.ts": {
+      "checkedAt": 1771946119687,
+      "integrity": "sha512-ChaqdUQj/zIZPKavh6DzTzyXFXPuGm1TUoGSrVFu56sjlwuRDLlQ43JhmChes24GNxWeRHJmCDNa/JhyYME96A==",
+      "mode": 420,
+      "size": 84
+    },
+    "dist/EmojiPickerReact.d.ts": {
+      "checkedAt": 1771946119701,
+      "integrity": "sha512-U0NpzDQQWgzqYvdmTld4NnFaPi/7CPcc9vD1/aIdVb0KOfT7au4x3ZpBWewuP/iOW071gD2G8N9gg1rl0oObNA==",
+      "mode": 420,
+      "size": 235
+    },
+    "dist/data/emojis.d.ts": {
+      "checkedAt": 1771946119709,
+      "integrity": "sha512-qec0qnhWOkpyg1UKJYquUy+JloYCP6kz7ZIIUVMmK8j234bxu18knIzTfyG4S79qgBaqVf6qWfplRqRMfzRxjw==",
+      "mode": 420,
+      "size": 928
+    },
+    "src/data/emojis.ts": {
+      "checkedAt": 1771946119724,
+      "integrity": "sha512-gFDeB/KsjhiuJP4vomYn2rOYMmvss6sXPNOXf4SH8rV8lHjtuoNe+R8U0FTSQjYtMgjsbPfEEP+TzDBbPiGOpA==",
+      "mode": 420,
+      "size": 153925
+    },
+    "dist/dataUtils/emojiSelectors.d.ts": {
+      "checkedAt": 1771946119738,
+      "integrity": "sha512-vwsUKYwF1YxRNIjURQA9u3PtxRTkT66JC+hKZIhKijNWePXHlwU2M8b0yt2HTfFQUHAe+2MqPTUyOM6MLiOS8g==",
+      "mode": 420,
+      "size": 1297
+    },
+    "src/dataUtils/emojiSelectors.ts": {
+      "checkedAt": 1771946119757,
+      "integrity": "sha512-o/KKyun5JjKuIF6dRAq3kCTm1t8asN4B/y9GJMy8RwYm2lCuqm/GcgO00kzhpBGPVPk2yQRCoEy61Kf2wPC+Tw==",
+      "mode": 420,
+      "size": 3821
+    },
+    "dist/components/emoji/emojiStyles.d.ts": {
+      "checkedAt": 1771946119768,
+      "integrity": "sha512-YWE8Hj45EkzwbYXonU78YGzSZiDjIyOOBLIXQigE+9xnZEAHYxy9sqlV5xJ7PrHISax6T3JZW6isi2RIXbjbvg==",
+      "mode": 420,
+      "size": 63
+    },
+    "src/components/emoji/emojiStyles.ts": {
+      "checkedAt": 1771946119779,
+      "integrity": "sha512-aC+SEoj9M+F0ZzZ5MR8p4gCo6Eozw6+hy1ys2ntFPSFcqGbYiHFGL2tyo0XE4T16HWuEgqxx/GZDxyL5PE3OcQ==",
+      "mode": 420,
+      "size": 322
+    },
+    "dist/components/body/EmojiVariationPicker.d.ts": {
+      "checkedAt": 1771946119785,
+      "integrity": "sha512-j8leKL2hGwsuURECGSuZl2RzyNlNezYNy2b4wTGM2z5dym9OjuQ3ruO7UunIpNrwAXnxhLdkpEzfdEg7kvpZdA==",
+      "mode": 420,
+      "size": 95
+    },
+    "dist/components/ErrorBoundary.d.ts": {
+      "checkedAt": 1771946119796,
+      "integrity": "sha512-LhEDoTAJCaiXA59B6yyQ0DvkipDnLJKzh66tz0xFAJgcQQKvZB2/GkraQepXXQxeklmtBJt6J6Le8eLtkrznkQ==",
+      "mode": 420,
+      "size": 594
+    },
+    "dist/components/emoji/ExportedEmoji.d.ts": {
+      "checkedAt": 1771946119816,
+      "integrity": "sha512-lYWJmqE/2JgMOFNkhd4vHaM6eO5z9oPcwNeif8xPOHdy5CE5QDi216P7L8+s/za+rHvjYqQh6vZdDScMglWwkA==",
+      "mode": 420,
+      "size": 421
+    },
+    "dist/types/exposedTypes.d.ts": {
+      "checkedAt": 1771946119826,
+      "integrity": "sha512-sh2Ly3xtzYWQYmefAYV9Tlk2faLUmXBsgnojIAYapfiAYiS5UKAd+lG7YIwqAYqbdZ+tmGf3JmlUWcLZe+lSVw==",
+      "mode": 420,
+      "size": 1252
+    },
+    "src/types/exposedTypes.ts": {
+      "checkedAt": 1771946119841,
+      "integrity": "sha512-iRMqrLph9bpxYgpu/RBt+Ja7E1ZPYa/4frA4vv0XRVFTiMrsDhIj5nbcEbV8D3f9CUFPSC1rA1dZuKCYGQq8Ng==",
+      "mode": 420,
+      "size": 1080
+    },
+    "dist/components/Layout/Flex.d.ts": {
+      "checkedAt": 1771946119851,
+      "integrity": "sha512-22XKBP0G5Otq0fjlR0aZYHkUamuQ8Fx3DLRnQAPPo3jmw2uR7kSpO9UNBtSH/4IGGuDLi64Hn60e9Lu+9+wrmA==",
+      "mode": 420,
+      "size": 389
+    },
+    "dist/DomUtils/focusElement.d.ts": {
+      "checkedAt": 1771946119860,
+      "integrity": "sha512-RwNbyrvn/omFjY0cg7/BB7t3TaohOm0I/AB/gfLvSDVNNyrSZDDuha0N+rg64messVQlgRWaaap0LPxUc37rGw==",
+      "mode": 420,
+      "size": 364
+    },
+    "src/DomUtils/focusElement.ts": {
+      "checkedAt": 1771946119877,
+      "integrity": "sha512-xnaSIn2WqodeMaO384PFN/GBJKfbiZsyEZUAtIGuIciv/iIG0pba/OfwSc0AXVeJ669vFRqHzaCKB3X24YlF/Q==",
+      "mode": 420,
+      "size": 736
+    },
+    "dist/DomUtils/getActiveElement.d.ts": {
+      "checkedAt": 1771946119898,
+      "integrity": "sha512-I/oYs71WH7x8W99db9LLwV+2e6zxIHJX64/n7tSzneQkjG0vMzzDD0vT9TYXfphZ4DYvGPEYOhsWBUxOBLywvQ==",
+      "mode": 420,
+      "size": 110
+    },
+    "src/DomUtils/getActiveElement.ts": {
+      "checkedAt": 1771946119922,
+      "integrity": "sha512-M7O6I+BVRio9NMXfyqXJVmytw3wYa6EUIN5ozHr4p52OtncuWQJInXb/tH4DsBYcnFyBDi4KgUmkGVufJVtguA==",
+      "mode": 420,
+      "size": 139
+    },
+    "dist/data/groups.d.ts": {
+      "checkedAt": 1771946119955,
+      "integrity": "sha512-9Q/FTbnDNFBI3jBRYS6AWukrnBLc2SQNjOG1Go3FkX1KsC5xKCTpjMXCUyzwv91KB4l+jQhyh5DLrIWJeQf/wA==",
+      "mode": 420,
+      "size": 57
+    },
+    "src/data/groups.ts": {
+      "checkedAt": 1771946119969,
+      "integrity": "sha512-6myFdom7CoEPpQpam58iC3nNF7oT0CRDtSX3mPUPSZGDBvD7LJQyLwd/mt7kKZ2AAZreg7tdwvjWhclra0vPRQ==",
+      "mode": 420,
+      "size": 171
+    },
+    "dist/components/header/Header.d.ts": {
+      "checkedAt": 1771946119984,
+      "integrity": "sha512-D18VnpNsOskQAxbNtFJYzkFi9RNZgYS4HgZN/WmAWSQzOAclTS+xhwnkTV1j6ZgsaEhhj/qn57MGaR+bAXWfTg==",
+      "mode": 420,
+      "size": 81
+    },
+    "dist/components/header/Search/IcnSearch.d.ts": {
+      "checkedAt": 1771946120005,
+      "integrity": "sha512-9tEzqjc65EJ5mtRki9Ae/d/XeDX9Y2diAGa7ZgXqWuYGEXANGvVpAAi2xwd5v5pFE6lTNVRXZSRV3P6zw0FJNQ==",
+      "mode": 420,
+      "size": 84
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1771946120028,
+      "integrity": "sha512-iC9klwJ8SFU8EX+zRhVOORunJ1QV5Bn+yhx1NB80n1tWlAuZc+231ycQE/XBj/7rNfzKjHiQrwyY4ZUQeuKdnQ==",
+      "mode": 420,
+      "size": 423
+    },
+    "dist/DomUtils/keyboardNavigation.d.ts": {
+      "checkedAt": 1771946120054,
+      "integrity": "sha512-Z9ARDVv4VG6c9uSjk4JDA7b5yXB51uTbdpKUlM34h9DsJlKVC3dgXSMsRGZYv/QKtknR7OnTLVmlWa6JcO9quw==",
+      "mode": 420,
+      "size": 645
+    },
+    "src/DomUtils/keyboardNavigation.ts": {
+      "checkedAt": 1771946120070,
+      "integrity": "sha512-7pdDSWUmljB8mfrCvoCJLr1O1Mb2NblbxEuVKFZg4TBGxxuVdrTUI1W/We0kazbFHN7hfnnaoUPHJ++YcZ9Z0g==",
+      "mode": 420,
+      "size": 3595
+    },
+    "dist/config/mutableConfig.d.ts": {
+      "checkedAt": 1771946120087,
+      "integrity": "sha512-i+K9kk54Hgt7ncdRwgmJU22U/IzO0kxpwbj0e9uMt+8ZrlWnF1TjbCMjZlrQrh+uM5i3sPPqr1E8c7nJDL7A3g==",
+      "mode": 420,
+      "size": 543
+    },
+    "src/config/mutableConfig.ts": {
+      "checkedAt": 1771946120105,
+      "integrity": "sha512-STBk2FT9jHKHV3kqsn5vT797dU1tJr+iDwM2rzWjhHS3mFaNBZDUD/DR2C4zUV2aPiTx7sWLE546ukcDwUHFvA==",
+      "mode": 420,
+      "size": 1350
+    },
+    "dist/components/emoji/NativeEmoji.d.ts": {
+      "checkedAt": 1771946120127,
+      "integrity": "sha512-EmhE5A+lXDgYsrMErvNT5DgkE55yrySJL3UAjtqvodndN+3OLUggNQIw6CTVAd8t5UPzgYeNkPMzaPcQmjkLgw==",
+      "mode": 420,
+      "size": 201
+    },
+    "dist/dataUtils/parseNativeEmoji.d.ts": {
+      "checkedAt": 1771946120152,
+      "integrity": "sha512-MUlGvdb/G/VKuqpS81FTXEyVnY6dB6t+nzyYVXb5iioUQ3l0ujZuG2mI3+wL3fuM2RbS/265xY+rhJJuAM2SCA==",
+      "mode": 420,
+      "size": 68
+    },
+    "src/dataUtils/parseNativeEmoji.ts": {
+      "checkedAt": 1771946120375,
+      "integrity": "sha512-tM1YtKUSwu86yijY4oC4ftmfZR89ddjadIVfDJ/pZ3p6cTLeYBrRxr8cAnB6C37Bj62aTbA/zzreIkm64QQYRg==",
+      "mode": 420,
+      "size": 167
+    },
+    "dist/components/context/PickerConfigContext.d.ts": {
+      "checkedAt": 1771946120489,
+      "integrity": "sha512-h9WI8o3Rg8zKMfa7apUeHV4npT/qtqm3xhFHZxZvUh16DFTmEWDrEoPSkmZRp9ARVFtnzmUFqrjXMCBcfdaBIQ==",
+      "mode": 420,
+      "size": 446
+    },
+    "dist/components/context/PickerContext.d.ts": {
+      "checkedAt": 1771946120549,
+      "integrity": "sha512-/iaIn6A1QyYDAA5gtoPJE5bjQAdBr1MkuVzWIfOfifM3RJDEmbBUddK8QdQ/J5z95zmpur24k1ZOrB6Yt1saqw==",
+      "mode": 420,
+      "size": 1499
+    },
+    "dist/components/main/PickerMain.d.ts": {
+      "checkedAt": 1771946120582,
+      "integrity": "sha512-rAAF+CbH/hblNWSn9UI1x8uggGlJydMVstNEMQYKmJsuHn7TScKM/746epSRIJutl5mcfT9Hch20DN/THfFhGA==",
+      "mode": 420,
+      "size": 235
+    },
+    "dist/hooks/preloadEmoji.d.ts": {
+      "checkedAt": 1771946120614,
+      "integrity": "sha512-NLQzlL5VLR5tt3b91tUu9y6avCB6m2zw5WtttM9ohCtk13LP7Se9uNKsdsxmfNDvoDHeVezHVrSrmnw1Fo0MDQ==",
+      "mode": 420,
+      "size": 349
+    },
+    "src/hooks/preloadEmoji.ts": {
+      "checkedAt": 1771946120639,
+      "integrity": "sha512-s2uT+QyV8Q+B/ZHb+Na/Pszyo4kpIIgP6+Mx45WVh5EAgSYgWhmnuSttuUfsvA+Dr5hP75wbuPUd3UiZtFmGkA==",
+      "mode": 420,
+      "size": 883
+    },
+    "dist/components/footer/Preview.d.ts": {
+      "checkedAt": 1771946120651,
+      "integrity": "sha512-X1zaEVzFaBfhqLubcKulCwo+Y1yrA1gc3OfrzbWw40fGWi/SLXicVmXv7aFvcJIiGXl1sKapKLimJCq2AgtjYA==",
+      "mode": 420,
+      "size": 243
+    },
+    "dist/components/Reactions/Reactions.d.ts": {
+      "checkedAt": 1771946120664,
+      "integrity": "sha512-YTWNsxr9mOKajESoVIRwWcC2Ps6DgWR7XlvicCiu7rjWvHzW1i9Mk/X7YtLSY8r39opHu5iYNbxnobzWnsY6Mw==",
+      "mode": 420,
+      "size": 91
+    },
+    "dist/components/Layout/Relative.d.ts": {
+      "checkedAt": 1771946120675,
+      "integrity": "sha512-OxJo4z3548vND0h1tsbH9j1SkFo9czqC8tcEBiSrhqzYIph5YrCqCHG8FlCOmuwhMPJJBg479A0JpbfggMilCg==",
+      "mode": 420,
+      "size": 261
+    },
+    "dist/DomUtils/scrollTo.d.ts": {
+      "checkedAt": 1771946120687,
+      "integrity": "sha512-/sWWF3CJdRM/j6zgPJgtJSriDCv+XT+psnrEjnG4HAWvJAn4IC71mZjd9No3/HoyhprjzB9t2RnrpY5mbXfFrQ==",
+      "mode": 420,
+      "size": 343
+    },
+    "src/DomUtils/scrollTo.ts": {
+      "checkedAt": 1771946120697,
+      "integrity": "sha512-hHMH/tmTRsbUaaukY12nwES/mtbxIRAzA/vXZiVaXb519IGiduk3Iono5OfAczXDiu7hlUC+6Pyllj7OuYPQJQ==",
+      "mode": 420,
+      "size": 1455
+    },
+    "dist/components/header/Search/Search.d.ts": {
+      "checkedAt": 1771946120715,
+      "integrity": "sha512-oKsO15Pf3VGlRO7i26tB2eCPGPu0gyngH0/Dlq6RQ5YKQcGhKfVYILUh416w3uMAFyQweui5Okt2fucEd+tliw==",
+      "mode": 420,
+      "size": 145
+    },
+    "dist/DomUtils/selectors.d.ts": {
+      "checkedAt": 1771946120737,
+      "integrity": "sha512-h9l17Wgp5lfflD0iJ3OTRCVde0unfR4A4A/9fBTA1Kd+Z2IKMeAB7qpufjeQzEShy4kKDxwURmTRqCIfM/jEdQ==",
+      "mode": 420,
+      "size": 2629
+    },
+    "src/DomUtils/selectors.ts": {
+      "checkedAt": 1771946120773,
+      "integrity": "sha512-qsDOQimE55Q5HW1+4ski/AmAuamjNzdfIrRamKSoFfdCdpzbmziaQIP1VquVpTLB8ylJ1BMJMoFDO+eQK8v1dA==",
+      "mode": 420,
+      "size": 7468
+    },
+    "dist/components/header/SkinTonePicker/SkinTonePicker.d.ts": {
+      "checkedAt": 1771946120810,
+      "integrity": "sha512-ugaoBnNCPWO8fvMSUbowvRJge8XtcQPJh2R6f5MwcQNXLj7j5dotHeuBAindX3Sk6abxiYtz/1p6UwWrD9n90w==",
+      "mode": 420,
+      "size": 375
+    },
+    "dist/data/skinToneVariations.d.ts": {
+      "checkedAt": 1771946120832,
+      "integrity": "sha512-qMviv7GCoALO6OZ46hkYOOf1ZBOjoCsq0fXMe0k4QM34Cn6vYo2D9lz791AncTnCbys/5+5PdS1gNY1EXzlrCg==",
+      "mode": 420,
+      "size": 261
+    },
+    "src/data/skinToneVariations.ts": {
+      "checkedAt": 1771946120854,
+      "integrity": "sha512-XDWWnPHLViou+fTbGRESz6cQn4u6kj/zzp0ErOxm2SCIdnVcov80U3bWn2/Wqc7UE4Ug/rlHLZOp41fnIOD+Qg==",
+      "mode": 420,
+      "size": 601
+    },
+    "dist/components/Layout/Space.d.ts": {
+      "checkedAt": 1771946120863,
+      "integrity": "sha512-nRRz8W3vc37d3grbWCr/IiEpN2nf/rtc5A6qc0A5GN/b8ccIvnSSUshLZj6ikRQa1OGC1mCb/Bz7bUrelXQ7SA==",
+      "mode": 420,
+      "size": 216
+    },
+    "dist/Stylesheet/stylesheet.d.ts": {
+      "checkedAt": 1771946120877,
+      "integrity": "sha512-1whyL6YlUAHZsPHgETIZ+f8mNahueKaUd6cxuLDcj+QPoV4nyYYiZ+rY7DkoSZbuYQqy7676i/JWWRxvCnK2hw==",
+      "mode": 420,
+      "size": 994
+    },
+    "dist/components/body/Suggested.d.ts": {
+      "checkedAt": 1771946120888,
+      "integrity": "sha512-zmbCwFrFW7JqpGj/Dwl0bXLH79Gqw6iCRel7sbPmfJmaDcPZdOoCjomGEELhjUDZM3V3a+InOWw/ehmVSyFuFg==",
+      "mode": 420,
+      "size": 266
+    },
+    "dist/dataUtils/suggested.d.ts": {
+      "checkedAt": 1771946120903,
+      "integrity": "sha512-bsViMr6JEy7ki2HoDNOKTKa0sttU8Thr/7KBBiANEo7HQB4Nm0daRK8pP9DLV+BxhGuEfbuSjkjmd+Azmr7ZMA==",
+      "mode": 420,
+      "size": 423
+    },
+    "src/dataUtils/suggested.ts": {
+      "checkedAt": 1771946120919,
+      "integrity": "sha512-MtbBKFu+Dd2URd4Ve1B1xSkHaICZr3R3yPXK+JEKgZr6IPlpIWgzsG4ZlnxFlcr+hCejvQGsKi103r/ttnEPZw==",
+      "mode": 420,
+      "size": 1498
+    },
+    "src/svg.d.ts": {
+      "checkedAt": 1771946120930,
+      "integrity": "sha512-eL65NsbQeQf2FfdF0I5271EX66wtmLM3ghm38njzPN4YOiLpCLAZ0M+pCosmvLpp/sIIDMA7jGIQTgRR6k6rNA==",
+      "mode": 420,
+      "size": 75
+    },
+    "dist/typeRefinements/typeRefinements.d.ts": {
+      "checkedAt": 1771946120948,
+      "integrity": "sha512-r5OogVieTWhccIrrvOSJOiJHl5biFDpmbA5Yhp6fGY4U7+J/1/ypHTPQ1Pusj1ETNBs4kKyBYpyCBAKMtgvydg==",
+      "mode": 420,
+      "size": 410
+    },
+    "src/typeRefinements/typeRefinements.ts": {
+      "checkedAt": 1771946120961,
+      "integrity": "sha512-oX+37M79RhyyHyjBHgWXVWOZ4sQXvg8yDOpfTS1fofCw0dXYhROUNEfjDsPNae+DHNj8WX68KDIyydyoDrEE3g==",
+      "mode": 420,
+      "size": 506
+    },
+    "dist/hooks/useActiveCategoryScrollDetection.d.ts": {
+      "checkedAt": 1771946120970,
+      "integrity": "sha512-x+Bl5waSzuNX/+oAK6ny9iFchnWiMJs7GMNIwd26W/OcCQl42mATxu66NrgRlRqZgV0emIdFNPmxC4vdwRy+AA==",
+      "mode": 420,
+      "size": 112
+    },
+    "src/hooks/useActiveCategoryScrollDetection.ts": {
+      "checkedAt": 1771946120980,
+      "integrity": "sha512-KSO7WnYXVHioB5PUhiNM2P0/RcQIq+e5D4b4W4Tz/Wfl7n2llMAnL6MBtD2UmMRJWrUXGddYFzHTs8Odv8PGaw==",
+      "mode": 420,
+      "size": 1330
+    },
+    "dist/hooks/useCloseAllOpenToggles.d.ts": {
+      "checkedAt": 1771946120992,
+      "integrity": "sha512-LKSsIP+uGhuKpLA3AntOZNMb437QEQgyxSus5pQCktrwI7rFM2hzq9sbJIUj20bnygmY4R0zQNVmGzzVlbjEVw==",
+      "mode": 420,
+      "size": 124
+    },
+    "src/hooks/useCloseAllOpenToggles.ts": {
+      "checkedAt": 1771946121004,
+      "integrity": "sha512-vGJQiUlTB1HgEUg2zcsdJhmNku6CnlOcLhRkrlW9njeU03/uozhFzsmWUeuWfoFzZd4S8WJcMIOyRvVhstWhhA==",
+      "mode": 420,
+      "size": 916
+    },
+    "dist/config/useConfig.d.ts": {
+      "checkedAt": 1771946121020,
+      "integrity": "sha512-rlgFiCqXOF0ap+vM+yizW3hikUkcFOsI00x/TsRwsVBRLbW1Tvgf2zhl7VqP6iU51DBvuz6LEcGgKObWunb/3Q==",
+      "mode": 420,
+      "size": 2116
+    },
+    "src/config/useConfig.ts": {
+      "checkedAt": 1771946121028,
+      "integrity": "sha512-q2RYtm4zhbh48m6QZ5ZyhFY3FYYatHLw0Yy5nG0Fn8bkqPuGsMs7SeqTBV6zC+Xw/subAi7kE+Lj8mN3jip8wA==",
+      "mode": 420,
+      "size": 4897
+    },
+    "dist/hooks/useDebouncedState.d.ts": {
+      "checkedAt": 1771946121048,
+      "integrity": "sha512-WWB4HEsEMH24JwxeLN82JnBAr8ldZ4y8zcQgMDd7yHAuSiSiuahuYKmhAp3L+8CoNUBbf1aRNxV5SLTURuyxow==",
+      "mode": 420,
+      "size": 111
+    },
+    "src/hooks/useDebouncedState.ts": {
+      "checkedAt": 1771946121054,
+      "integrity": "sha512-t1b8yI2twdzup4vKq4YxDHOcFWUTPUFk8RculkB2QyNUY+gJ5WHV7oM2Gvrg1Z6tkzeIMBYqDvpiZDE4PGp0VA==",
+      "mode": 420,
+      "size": 576
+    },
+    "dist/hooks/useDisallowedEmojis.d.ts": {
+      "checkedAt": 1771946121068,
+      "integrity": "sha512-BrDk39HynMajcd6zzZuKQDBdhhR8mdAOvNwN485EQ2rNfK8rb6Uus8dEArdulpd3FYf/HJutt98mn+/Qh4KsBA==",
+      "mode": 420,
+      "size": 206
+    },
+    "src/hooks/useDisallowedEmojis.ts": {
+      "checkedAt": 1771946121079,
+      "integrity": "sha512-ofq3swItuAfb3id/oxGMXsr+hLS6NX4OGhfLsADAoHnHZEd095YjYawm2ixzo5+PTSg0NWReJHut/n7MS3osBQ==",
+      "mode": 420,
+      "size": 1445
+    },
+    "dist/hooks/useDisallowMouseMove.d.ts": {
+      "checkedAt": 1771946121091,
+      "integrity": "sha512-exLaqfg/CmO+qJ75sk56buRDHG9CsgTeMLpsczQR4Wvm1STPZ+wC6aH8sGyQTdk4DKQIwK1NyOj+pMefDZ2qIQ==",
+      "mode": 420,
+      "size": 232
+    },
+    "src/hooks/useDisallowMouseMove.ts": {
+      "checkedAt": 1771946121103,
+      "integrity": "sha512-8FbHTMX+riDwnZHJMrTZ5VZUMHi4KzeoeY/ifgi+9BAY5t7S+QsGr0I6ZoEdX8HO21ohn83aLahaXHrQ3IEjPw==",
+      "mode": 420,
+      "size": 1259
+    },
+    "dist/hooks/useEmojiPreviewEvents.d.ts": {
+      "checkedAt": 1771946121156,
+      "integrity": "sha512-Xu+2qfNvlNvelfr8YhyHMjBgOGKTELCSldam1FruRdT3PmVXmN9NoqHOcESK85wyHDfIbGfBC7VrL0CT68givg==",
+      "mode": 420,
+      "size": 234
+    },
+    "src/hooks/useEmojiPreviewEvents.ts": {
+      "checkedAt": 1771946121166,
+      "integrity": "sha512-UZX9MhnY72ufZxxtGH8mekR45A9azcoNsoLRgA/R6iJpCWZ5zNjwOJe6IgZovjaxkPNAcwN8Z3zQRHzrm/7h7Q==",
+      "mode": 420,
+      "size": 3307
+    },
+    "dist/hooks/useFilter.d.ts": {
+      "checkedAt": 1771946121177,
+      "integrity": "sha512-v2FluYKPYG9y2of5A/XzxRMkQNkMA6h34sy+RfQMnlzn1Zw+Fi2mf9/tudBWfURGOIYCeNuAS1Yfuwgh2UbFcg==",
+      "mode": 420,
+      "size": 633
+    },
+    "src/hooks/useFilter.ts": {
+      "checkedAt": 1771946121187,
+      "integrity": "sha512-F1opVW7D7ZY+094uw5TMNG77lUWg7lJws9rD7cKx7bhjjoyOIttCNqH5kvZClWV5MYl+xqwF9dPQkRIadjxlcA==",
+      "mode": 420,
+      "size": 4867
+    },
+    "dist/hooks/useFocus.d.ts": {
+      "checkedAt": 1771946121194,
+      "integrity": "sha512-4mc655wzZHKR9kkKKii/ZK4K31DYrhwFXJvxzMs4R+11suRfq6xPnWuG0IbqSK4gpTTh6tdwPwpV/sUxC7RLlg==",
+      "mode": 420,
+      "size": 190
+    },
+    "src/hooks/useFocus.ts": {
+      "checkedAt": 1771946121204,
+      "integrity": "sha512-fVrYYYV28M2WbtgJHfETGzZphRxb4IMXm9AjwVHDtYX9lMzSh1I0nHfNY/P0Gz8wAhJ9w408x87S88LQjB/ztg==",
+      "mode": 420,
+      "size": 997
+    },
+    "dist/hooks/useHideEmojisByUniocode.d.ts": {
+      "checkedAt": 1771946121218,
+      "integrity": "sha512-837ZzbFy71iTRcF1Ejdo6JkVpbiQ1N1TBZix77VrEFIgIrTt2cDjwSBqUE7VkikAbzhodtjialBVVT4cJ++Ryg==",
+      "mode": 420,
+      "size": 82
+    },
+    "src/hooks/useHideEmojisByUniocode.ts": {
+      "checkedAt": 1771946121226,
+      "integrity": "sha512-IfYz2p/Nd1xpOegdf5eGgQIJo5tcvnHLIrW0aeEwXh1JcoguQQdShCTF54rydmvJS3pE8kt4q1u5JVDGLglLYg==",
+      "mode": 420,
+      "size": 216
+    },
+    "dist/hooks/useInitialLoad.d.ts": {
+      "checkedAt": 1771946121238,
+      "integrity": "sha512-ou1PCbV/Xuos51SKyPOEFrdyxuJlIIotJ8cKLSV7oHSZWcQnbC/+YNut6wLEU/UgItkXBf74RDioFlNSBtbw+g==",
+      "mode": 420,
+      "size": 141
+    },
+    "src/hooks/useInitialLoad.ts": {
+      "checkedAt": 1771946121255,
+      "integrity": "sha512-R68ExbMXEFPH4ku6t8r3tLV9OrBHYtS0jzT+qg3R4/DWscjWN9uQdT6t71eqrRGyhWLCIx0f+sBqvqKmBvRWOw==",
+      "mode": 420,
+      "size": 226
+    },
+    "dist/hooks/useIsEmojiHidden.d.ts": {
+      "checkedAt": 1771946121268,
+      "integrity": "sha512-QrTlOHaxBtgIBvXfBOh8D+5iQTBtK0L8KQuYiwwFR+YXKQa89HEinhcdd5DO11MnN0ck1HvaIEMQzJg6sOVYWQ==",
+      "mode": 420,
+      "size": 262
+    },
+    "src/hooks/useIsEmojiHidden.ts": {
+      "checkedAt": 1771946121282,
+      "integrity": "sha512-XEAkGduTntvX+xpiWqHuu0uYXqvQqvJT0vbFfqSJI1z7LN8eUWW70jShyEiYgJSNA/+YR4KUW8pnm0QdLPDTeQ==",
+      "mode": 420,
+      "size": 851
+    },
+    "dist/hooks/useIsEverMounted.d.ts": {
+      "checkedAt": 1771946121298,
+      "integrity": "sha512-znQqpudiFf4mjG6gOtE+K4H3ZqjOqCWmzCvcpL5aHsx9MkfNeFzc0EAaJsNYjUymkgUWtmRzI3ehfXdBREerxA==",
+      "mode": 420,
+      "size": 54
+    },
+    "src/hooks/useIsEverMounted.ts": {
+      "checkedAt": 1771946121308,
+      "integrity": "sha512-wHzjpAr/NFc4ESPBeS1ba17kXOG5f6zNCx9ralTkgV/B4iaBU5PiLGLKfAA0HVCBAu5l8RNnEdJqqErGCrxBwg==",
+      "mode": 420,
+      "size": 292
+    },
+    "dist/hooks/useIsSearchMode.d.ts": {
+      "checkedAt": 1771946121318,
+      "integrity": "sha512-ouUHiunWhTAhsJSq/CVrNQ5jYhN+XCa3DdetbF0+zERmaXo/zH3WWqmqWdWMuM8eG3+GPLp+euQ4TtFiuIGIHA==",
+      "mode": 420,
+      "size": 53
+    },
+    "src/hooks/useIsSearchMode.ts": {
+      "checkedAt": 1771946121326,
+      "integrity": "sha512-f5dRWemZ41AH74cmBtEg2RHwUfBoU0nWg+U/SD1RCE6beD3aJDU3FN9xW14wkiOeeXF22Dm3VRZrZV6sTw2eOQ==",
+      "mode": 420,
+      "size": 199
+    },
+    "dist/hooks/useKeyboardNavigation.d.ts": {
+      "checkedAt": 1771946121339,
+      "integrity": "sha512-DAbdRVQf1VXv0y8mqEVmOVpJcnggpPh0/05+Ccv35ESAZVCeA6ISNwT8b5xNWEm1o5kFxdYNtKk6BSfC91Zn5A==",
+      "mode": 420,
+      "size": 56
+    },
+    "src/hooks/useKeyboardNavigation.ts": {
+      "checkedAt": 1771946121346,
+      "integrity": "sha512-680xO1c/wMd3qjQvYVhESdMncHny0tKUq9y4oD1zF0DnSsgvrI7TdT0aLOQq6F83mi6ZS3H8HyfSvhUY9koWaw==",
+      "mode": 420,
+      "size": 12711
+    },
+    "dist/hooks/useMouseDownHandlers.d.ts": {
+      "checkedAt": 1771946121356,
+      "integrity": "sha512-SQS+K11aycIjoeJfPmwmY4lagO5SfggZEPhArjUcajBFKM7mBYExPgx8m7vhHeXjmZ7CKNPNrIdCtk1QAVrEGQ==",
+      "mode": 420,
+      "size": 296
+    },
+    "src/hooks/useMouseDownHandlers.ts": {
+      "checkedAt": 1771946121366,
+      "integrity": "sha512-eTf5UNWKRdKiCwP4pjbpkHV17m1lsu0y+YeVSIQT7aqu89JJhW0qhUMvdx21Kva3O62e5OcnAt82oOWBdu+Y6Q==",
+      "mode": 420,
+      "size": 5730
+    },
+    "dist/hooks/useOnFocus.d.ts": {
+      "checkedAt": 1771946121374,
+      "integrity": "sha512-rNSm7lEjlyw5CR2V3VrIObbNo9J7ojJm8R8Yec5qKjaBE4zhCZYQaNtSbAA8BUlu121kK9Ur8mT1fWXDdTnnYA==",
+      "mode": 420,
+      "size": 45
+    },
+    "src/hooks/useOnFocus.ts": {
+      "checkedAt": 1771946121406,
+      "integrity": "sha512-4tyi1RDkN5Oc0Pdl4gFHLyvPJLQkqdkz7lUIY5vBTjN0t/5MEIvF6aAl3O43u4NxbhNeRYckGePeJQaIlWKELw==",
+      "mode": 420,
+      "size": 1244
+    },
+    "dist/hooks/useOnScroll.d.ts": {
+      "checkedAt": 1771946121420,
+      "integrity": "sha512-xPyzPfJ5n2/WnQwS23b9SJJtKcVwOrzdPEifvHvoUUTb0sCAe1QmaRkC1fIXsdtQq/w1u0TWPyUrWO4tiN5NhQ==",
+      "mode": 420,
+      "size": 136
+    },
+    "src/hooks/useOnScroll.ts": {
+      "checkedAt": 1771946121431,
+      "integrity": "sha512-jCz8U7zWWqW2CRl6sM7wvcW12EVlMHueSlcC/eYbbXU4HJImdysZEDs4zFUktOzcTlD9AmkYjFehst1Gppm9WA==",
+      "mode": 420,
+      "size": 645
+    },
+    "dist/hooks/useScrollCategoryIntoView.d.ts": {
+      "checkedAt": 1771946121445,
+      "integrity": "sha512-DPA6ASCWJR0O4tI6mkguwyf5SHARuTvK5e8HwPbQln5ENADY9ZmTE/QYIiR0zi8FIfLEIqRVIpe+kleXmswHKQ==",
+      "mode": 420,
+      "size": 82
+    },
+    "src/hooks/useScrollCategoryIntoView.ts": {
+      "checkedAt": 1771946121455,
+      "integrity": "sha512-P2NDcW8OVeHEvNUp1SQkDmhrHY7kStY62XU6gP330bAANrLQK7qV86sDhzRJgfcYEBly6Z5awKOTv+i/pC1BAw==",
+      "mode": 420,
+      "size": 699
+    },
+    "dist/hooks/useSetVariationPicker.d.ts": {
+      "checkedAt": 1771946121465,
+      "integrity": "sha512-G6U/TN5zSfWIQ6qZqg3w7+068jaL2huv6s1fnZE3UEjryYmXdPyjPESYndRvfZQquS4vpGEJNGAoYbbTtiAGmg==",
+      "mode": 420,
+      "size": 144
+    },
+    "src/hooks/useSetVariationPicker.ts": {
+      "checkedAt": 1771946121474,
+      "integrity": "sha512-70FXb/kvswNe64YGM1s49wqMuIdTXFwqC/Y+YuDa5mdSITHXtY/ak6x9Uco3BpHfJZv8s8sXRKLeHAh1PmFRoQ==",
+      "mode": 420,
+      "size": 636
+    },
+    "dist/hooks/useShouldHideCustomEmojis.d.ts": {
+      "checkedAt": 1771946121485,
+      "integrity": "sha512-W/MIzf/PyLfHVR52uTr0DqKdQwHXOOF8ViCnGWVKrGcKGqmyXShnNBnJtwHgWZ+YQeQcsYLvTiYLOlCffEK03A==",
+      "mode": 420,
+      "size": 63
+    },
+    "src/hooks/useShouldHideCustomEmojis.ts": {
+      "checkedAt": 1771946121495,
+      "integrity": "sha512-/mXObJZdqtsaJjbtMZt3HhSbJFEEBjGkMijoy8zz+r7pJ68oqc8kj4n9X5lYlyNjnfCx/PLJknmfdYLb8fe57A==",
+      "mode": 420,
+      "size": 265
+    },
+    "dist/hooks/useShouldShowSkinTonePicker.d.ts": {
+      "checkedAt": 1771946121507,
+      "integrity": "sha512-nYc0vSpwpTLeoDSlQRrtYB/uVBMJnuJQPUrprCxu96ajgIPZ7wPQ9gTAMIlMS09/s5kXsHAaCiO+nsFkHr5sdg==",
+      "mode": 420,
+      "size": 287
+    },
+    "src/hooks/useShouldShowSkinTonePicker.ts": {
+      "checkedAt": 1771946121517,
+      "integrity": "sha512-ydBnCLkpYK2kuCSaTDvkF6xucJ92nwBVVrUoXyWOSJXGGaV8KTyGPM+V9PynG5DZpnCo4Z7gJbIG8I2h0xV6KA==",
+      "mode": 420,
+      "size": 787
+    },
+    "dist/components/emoji/ViewOnlyEmoji.d.ts": {
+      "checkedAt": 1771946121538,
+      "integrity": "sha512-94bH142OtpZGfek53VZFEEEU9T/WtiNTQmqb4Hv+yKqd2dtkPnEcleHkwYgHinV8IzTt1fUC5Dc/K39P59w9Ew==",
+      "mode": 420,
+      "size": 233
+    },
+    "src/components/Layout/Absolute.tsx": {
+      "checkedAt": 1771946121549,
+      "integrity": "sha512-O0Nh1U6ANbY0/8m8p85k3/RO/bf6EZdHrLbBSp+hLg7Xhzu4BbwxXlwpGAqw1vsYpOG1ITaNPb0n2wub/o00bw==",
+      "mode": 420,
+      "size": 339
+    },
+    "src/components/body/Body.tsx": {
+      "checkedAt": 1771946121559,
+      "integrity": "sha512-Mb1tWSjxn0al3h/FQqIkVdG8sW4scLWWjMWIHgJQMw0JQT2dGEHAxbHgwK76/TDVRMPdCavdjCp0A8maW1v6/A==",
+      "mode": 420,
+      "size": 1157
+    },
+    "src/components/header/Search/BtnClearSearch.tsx": {
+      "checkedAt": 1771946121570,
+      "integrity": "sha512-uf1E1LOnEIZoU5f/slld9R3DAyMwj7Jkg9bG4azUqOaIq4Z2Qeu1LMnA05CB6bBp2bTgdGdbLZ859Y6ueu0YLA==",
+      "mode": 420,
+      "size": 1783
+    },
+    "src/components/Reactions/BtnPlus.tsx": {
+      "checkedAt": 1771946121626,
+      "integrity": "sha512-N6oLx9J1M+SmzTDEWaTJgNKnx79WTzzkHY07HPxTyzJ7ixvPXp4JY4r4dxdskZcQQGn/v5Z7En0a4hUZBv/MLQ==",
+      "mode": 420,
+      "size": 1739
+    },
+    "src/components/header/SkinTonePicker/BtnSkinToneVariation.tsx": {
+      "checkedAt": 1771946121786,
+      "integrity": "sha512-vgbdvyGCzfZ7dgA0NdptM3TEmwJYmwKY3uuoZwIL69WE4AobuXlR4zNZlTa7x5IucFFvITVsBzJbogMYqV6ifA==",
+      "mode": 420,
+      "size": 2208
+    },
+    "src/components/atoms/Button.tsx": {
+      "checkedAt": 1771946121881,
+      "integrity": "sha512-xqeFWQ3cv8HOVY6Wk0H4kwE/AZSrfSjVfPIwD/jL6ZZou4bJ4aFT0XxnPlLhXYPuCKkWoFyK5frIz7JeHnuLwg==",
+      "mode": 420,
+      "size": 639
+    },
+    "src/components/navigation/CategoryButton.tsx": {
+      "checkedAt": 1771946121904,
+      "integrity": "sha512-b+R96/scnZlGA2aOW0BsS70c0uf1YESIHpvZ/GWzFc5y6vPwdUyXDw3M8Je9sRI3HtDa9apb9rv40hGYuDIAqQ==",
+      "mode": 420,
+      "size": 3626
+    },
+    "src/components/navigation/CategoryNavigation.tsx": {
+      "checkedAt": 1771946121926,
+      "integrity": "sha512-xlnJ70FR9vHdBPsk4Rnfa5+0KeZSyUbho7eGYyh2keVruIi9RCQ4n0AXHg39gHMHKiETdCFHAiUBLc5ouZ4oXw==",
+      "mode": 420,
+      "size": 2700
+    },
+    "src/components/emoji/ClickableEmojiButton.tsx": {
+      "checkedAt": 1771946121943,
+      "integrity": "sha512-Zvk2ISe2Td91YnuT9qBaaMOj2HMleStPyHcTgca6GQ9lCJ/wFYhy8o0qHxgwaBowM37jY6uRNBf6X2gnHb1rUg==",
+      "mode": 420,
+      "size": 2885
+    },
+    "src/components/header/Search/CssSearch.tsx": {
+      "checkedAt": 1771946121967,
+      "integrity": "sha512-As762oSSan9UISlQWXzTKHvpWI/EnhVnWn0qwpJyyrbrsi0mynRcNl700qRcbxKpzX0aXNzSCAG4VW167VLFNw==",
+      "mode": 420,
+      "size": 918
+    },
+    "src/components/context/ElementRefContext.tsx": {
+      "checkedAt": 1771946121987,
+      "integrity": "sha512-8ng53Dbyksflqp1DzwwDEo9DfUOBTr2lRgM9JIA9vj6de8Xt/eisuyl3bIA5gh+h7cB4LaqSm/PUVqasmbtt/g==",
+      "mode": 420,
+      "size": 3008
+    },
+    "src/components/emoji/Emoji.tsx": {
+      "checkedAt": 1771946122005,
+      "integrity": "sha512-7fIqR2lnHZXUBdrPpRHcAj+YiwUOAcB7p6g9a4eh5IpkEDPJeM1kGIweb69q2GvKwEWEOzIK2Fz+n1wYTWBpTg==",
+      "mode": 420,
+      "size": 1354
+    },
+    "src/components/body/EmojiCategory.tsx": {
+      "checkedAt": 1771946122024,
+      "integrity": "sha512-UPsiN+oP+NvfSmi/JCp6nZpw0m5FD3aRpWdvQjOI1Ttco3NpTm+9kTIidUfQOKlRpP3TMgSZ3pHEwiaLRifnHw==",
+      "mode": 420,
+      "size": 2130
+    },
+    "src/components/emoji/EmojiImg.tsx": {
+      "checkedAt": 1771946122037,
+      "integrity": "sha512-Hcch+b4z2tcKVXW47TFg9R/LLrCHGOndxBpG0mf9wO80cUKjbtTzn2dvcb2ybQzgKL0rVdOhm4ubuOHdzVsyZA==",
+      "mode": 420,
+      "size": 1053
+    },
+    "src/components/body/EmojiList.tsx": {
+      "checkedAt": 1771946122048,
+      "integrity": "sha512-LwIq9GRLW2D/wS36tt99IQ8FDYh190I+Nn4mxTwW+V8Jp7JUfgCzXL2cNPUXlVo76x3UhGl4AWnnSl4KtyX0Lw==",
+      "mode": 420,
+      "size": 3791
+    },
+    "src/EmojiPickerReact.tsx": {
+      "checkedAt": 1771946122060,
+      "integrity": "sha512-VGDqx2debGCxXyoM/waOGMxHMnoO6Rrec/mcaXavLwzAZecW5n1kj0+D0BgjK7rxW0cxrypBWuSvH7/r0OmJwg==",
+      "mode": 420,
+      "size": 1963
+    },
+    "src/components/body/EmojiVariationPicker.tsx": {
+      "checkedAt": 1771946122069,
+      "integrity": "sha512-pL1u6aEYJP+2n0sJmYchMmRPrwIQ6LRndr5++O5uH6x3YX3Y8sFH076oxh0ydZt1PisqaZ2N5kDD9mWJdKpHSw==",
+      "mode": 420,
+      "size": 5938
+    },
+    "src/components/ErrorBoundary.tsx": {
+      "checkedAt": 1771946122082,
+      "integrity": "sha512-trBvl/GirqMYoLxWsgnnllllXum1Opm/sI1chLFJN0VkyD12m1gp40GRkWvEbvp/q+Dyc1vC1pPzwLvPaZCrcA==",
+      "mode": 420,
+      "size": 628
+    },
+    "src/components/emoji/ExportedEmoji.tsx": {
+      "checkedAt": 1771946122092,
+      "integrity": "sha512-iGvwRPFKGTZxH/sZFxgD9b5iQ9hVQSd3pnXweQ2crGE2GSNKqaXRlXRb8Oogo6pfuc/vx7Yv7b0Lf4vQ0L13XQ==",
+      "mode": 420,
+      "size": 738
+    },
+    "src/components/Layout/Flex.tsx": {
+      "checkedAt": 1771946122104,
+      "integrity": "sha512-UMMhfiLk9TRfXfrZ1UmYS2IxGZmb/WnzWQZ3f4/VyTsLjknpZ6/ZNI1zv60JrCm/PE7fGxLK/9hcHLh1MVaYFQ==",
+      "mode": 420,
+      "size": 792
+    },
+    "src/components/header/Header.tsx": {
+      "checkedAt": 1771946122118,
+      "integrity": "sha512-9MfOPz18gwD7o6aozdu9/uY8vrfjEln1Aa8Goo8qGDPx6Dd/Vvdv9hWyLdEl6OBPBaqV3w9kbDWvb/T54JSgsA==",
+      "mode": 420,
+      "size": 515
+    },
+    "src/components/header/Search/IcnSearch.tsx": {
+      "checkedAt": 1771946122139,
+      "integrity": "sha512-OL94hEjwANv1ux9lRrwrzK4yoq8eD63UfaCmOgvVuBEpz8CqDDHf6q1xa3FOGXA1IQy/6vAKIVtLc4akjC7hIA==",
+      "mode": 420,
+      "size": 741
+    },
+    "src/index.tsx": {
+      "checkedAt": 1771946122167,
+      "integrity": "sha512-wCbC05zBQ1NNtvZ7pZhNAJdH+eReJiH8ugf+CQQYAQBp6skNvfOdeEM9TuTewc4dos1yC762D+zdIt7DMOzasg==",
+      "mode": 420,
+      "size": 1008
+    },
+    "src/components/emoji/NativeEmoji.tsx": {
+      "checkedAt": 1771946122253,
+      "integrity": "sha512-g9ZfO8WSPpnLggYj35wVusZyNnM1Bs9s6yQTgjmPC5Lc3kdlMQP+NKvAilKfUD7oN4tpYbbLcUGi1k0MqLmG8A==",
+      "mode": 420,
+      "size": 1141
+    },
+    "src/components/context/PickerConfigContext.tsx": {
+      "checkedAt": 1771946122287,
+      "integrity": "sha512-QqKlcIu4iSJS7y5+BTAFA10lsv2pN8lmxL5reyAgogigSKoRJPEOqs6olgT44fk4qO7VRCLH0vOZDRknmyBJOw==",
+      "mode": 420,
+      "size": 1597
+    },
+    "src/components/context/PickerContext.tsx": {
+      "checkedAt": 1771946122312,
+      "integrity": "sha512-LUWq1OD9FHHx3RRlUuKMqgprIFpJoaRxezY03iKwDz4cYnOj4kNPVZjM++ACDfmUFc82fDR3ZY5xLkDqyCEcPA==",
+      "mode": 420,
+      "size": 5695
+    },
+    "src/components/main/PickerMain.tsx": {
+      "checkedAt": 1771946122330,
+      "integrity": "sha512-q7f4D4gNc+oNRfjVFYubpeHFIV0933E6sbSv/C40HGEE09rxwUZBrzJIACdWrOAmDuOYSQ3xWopyksQOJERWtg==",
+      "mode": 420,
+      "size": 8548
+    },
+    "src/components/footer/Preview.tsx": {
+      "checkedAt": 1771946122350,
+      "integrity": "sha512-JnnCj6izJcywk4VXzy6UV7PV68X3WUTKJCFTMTBUPQb7aqMg18uCxo2ZMig1qCIcm2sHCyb5Q9S+jbt1VZ3DDw==",
+      "mode": 420,
+      "size": 3497
+    },
+    "src/components/Reactions/Reactions.tsx": {
+      "checkedAt": 1771946122372,
+      "integrity": "sha512-MpJWTqSoC+hpEwCEKV09uXOD0KMYwmgCUA2e0PVNF9U/z1iqBrOJ7sRY9eSF7HYhO1Rw3Yad99PTno+SyLnenQ==",
+      "mode": 420,
+      "size": 2238
+    },
+    "src/components/Layout/Relative.tsx": {
+      "checkedAt": 1771946122386,
+      "integrity": "sha512-tyr7y038943/itwcxP4RQwBhm7+VDuHitOb+/89ft6L0Glp+Zh16BLdksoReSJTyqUfbJuZoYC/rqGX/IhfvXw==",
+      "mode": 420,
+      "size": 339
+    },
+    "src/components/header/Search/Search.tsx": {
+      "checkedAt": 1771946122404,
+      "integrity": "sha512-dPzBHOxFda39W2RuJorgvJNx4SxDPF5MmXnXNBxYzbzHgc7fXQjOhvD9NYUasrW6fm3gn9GqXqZENamkkK7Ytg==",
+      "mode": 420,
+      "size": 4767
+    },
+    "src/components/header/SkinTonePicker/SkinTonePicker.tsx": {
+      "checkedAt": 1771946122416,
+      "integrity": "sha512-BBIPDWnVnX1Vip64iE4pGYtKlZ2p7qtUKXLFE1OdULA+7rrJ2gnOHL9pTonIIlV3UFzBdjZ5tZbHHtW83wLspA==",
+      "mode": 420,
+      "size": 4460
+    },
+    "src/components/Layout/Space.tsx": {
+      "checkedAt": 1771946122433,
+      "integrity": "sha512-3x0Pt0Hpw1NkFTcOdR3iz1xiL2xzKaPJRp73uFbq9uiVdxUOU0SZmpIHE1HIW04dqm4xZcH+b9H5AxxSrhVhEQ==",
+      "mode": 420,
+      "size": 288
+    },
+    "src/Stylesheet/stylesheet.tsx": {
+      "checkedAt": 1771946122448,
+      "integrity": "sha512-8Y9OSe363XmBLPX039hHt+VyurAvwFGj5kh9Uku3NW/LXXjTMj/qYqyRyIIQsanaBINRCl5rKKfwso5lcLAWJQ==",
+      "mode": 420,
+      "size": 1989
+    },
+    "src/components/body/Suggested.tsx": {
+      "checkedAt": 1771946122470,
+      "integrity": "sha512-rRbVfuOPFOJ/AU3ljEcuERXz+7xHNQkhLj022YlIHXL2h076IR3b+Fh60d3RvONRt4kQCk5TaUDua3Phr0/a/Q==",
+      "mode": 420,
+      "size": 1799
+    },
+    "src/components/emoji/ViewOnlyEmoji.tsx": {
+      "checkedAt": 1771946122488,
+      "integrity": "sha512-+oy58YamipyzIeSuMdbmRXh/ZpS8JvFusT4c/fNKv43ONZmafiOk6gtWHR7cDPCtpORrXj/SJaa+uCLXsS0VBg==",
+      "mode": 420,
+      "size": 1784
+    }
+  }
+}

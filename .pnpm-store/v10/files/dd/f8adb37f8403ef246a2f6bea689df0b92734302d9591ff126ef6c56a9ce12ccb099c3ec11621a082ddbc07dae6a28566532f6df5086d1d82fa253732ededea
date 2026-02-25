@@ -1,0 +1,29 @@
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+
+const browser = require('@sentry/browser');
+const sdk = require('./client/sdk.js');
+const tracingIntegration = require('./client/tracingIntegration.js');
+const react = require('@sentry/react');
+
+
+
+exports.init = sdk.init;
+exports.reactRouterTracingIntegration = tracingIntegration.reactRouterTracingIntegration;
+exports.ErrorBoundary = react.ErrorBoundary;
+exports.Profiler = react.Profiler;
+exports.captureReactException = react.captureReactException;
+exports.reactErrorHandler = react.reactErrorHandler;
+exports.useProfiler = react.useProfiler;
+exports.withErrorBoundary = react.withErrorBoundary;
+exports.withProfiler = react.withProfiler;
+Object.prototype.hasOwnProperty.call(browser, '__proto__') &&
+	!Object.prototype.hasOwnProperty.call(exports, '__proto__') &&
+	Object.defineProperty(exports, '__proto__', {
+		enumerable: true,
+		value: browser['__proto__']
+	});
+
+Object.keys(browser).forEach(k => {
+	if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) exports[k] = browser[k];
+});
+//# sourceMappingURL=index.client.js.map

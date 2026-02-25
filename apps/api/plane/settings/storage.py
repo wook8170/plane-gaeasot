@@ -18,7 +18,9 @@ from storages.backends.s3boto3 import S3Boto3Storage
 
 class S3Storage(S3Boto3Storage):
     def url(self, name, parameters=None, expire=None, http_method=None):
-        return name
+        if os.environ.get("USE_MINIO") == "1":
+            return name
+        return super().url(name, parameters, expire, http_method)
 
     """S3 storage class to generate presigned URLs for S3 objects"""
 
@@ -49,7 +51,10 @@ class S3Storage(S3Boto3Storage):
                 aws_secret_access_key=self.aws_secret_access_key,
                 region_name=self.aws_region,
                 endpoint_url=(f"{endpoint_protocol}://{request.get_host()}" if request else self.aws_s3_endpoint_url),
-                config=boto3.session.Config(signature_version="s3v4"),
+                config=boto3.session.Config(
+                    signature_version="s3v4",
+                    s3={"addressing_style": "path"}
+                ),
             )
         else:
             # Create an S3 client
@@ -135,6 +140,11 @@ class S3Storage(S3Boto3Storage):
         except ClientError as e:
             log_exception(e)
             return None
+
+        if os.environ.get("USE_MINIO") == "1":
+            # Return simple public URL for local MinIO
+            endpoint_url = f"{self.s3_client.meta.endpoint_url}/{self.aws_storage_bucket_name}/{object_name}"
+            return endpoint_url
 
         # The response contains the presigned URL
         return response

@@ -222,13 +222,13 @@ MEDIA_ROOT = "mediafiles"
 MEDIA_URL = "/media/"
 
 # Internationalization
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "ko"
 USE_I18N = True
 USE_L10N = True
 
 # Timezones
 USE_TZ = True
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Seoul"
 
 # Default Auto Field
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"

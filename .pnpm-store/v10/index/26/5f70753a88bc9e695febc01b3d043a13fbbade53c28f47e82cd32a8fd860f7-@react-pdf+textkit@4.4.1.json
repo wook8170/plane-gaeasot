@@ -1,0 +1,31 @@
+{
+  "name": "@react-pdf/textkit",
+  "version": "4.4.1",
+  "requiresBuild": false,
+  "files": {
+    "lib/textkit.cjs": {
+      "checkedAt": 1771946109779,
+      "integrity": "sha512-6bUxbsh8L6cj2YiF2qyQz9j3Oq1aV6ijBd6/ZJUAT4sQmIrjoUjIQxm3B9tLUHzo0JdU8HGwZBDsSaM6gvq1xA==",
+      "mode": 420,
+      "size": 101378
+    },
+    "lib/textkit.js": {
+      "checkedAt": 1771946109810,
+      "integrity": "sha512-rWSxIDEpwlQJXAtj/cRodvnwP9qu5XQURsp4RJGGS/SxMYLwIgtr4widgXsPAwTSavAPgJ1gNbP7hQeIPsHx/A==",
+      "mode": 420,
+      "size": 100088
+    },
+    "package.json": {
+      "checkedAt": 1771946109853,
+      "integrity": "sha512-NCR2cDiKRX5swbjlHIzMZaD5WoiB5iL9ZNgActQV9ncNRwvbdAXnkeVWNdB2efr7WxPhWe0xRux4KtUZwo+VNg==",
+      "mode": 420,
+      "size": 946
+    },
+    "README.md": {
+      "checkedAt": 1771946109878,
+      "integrity": "sha512-bD8xywiZA5WW7pwnFMbIWYHaDegwwis7PpeHMEl8aTlqwquTTaW0MzOlWGQAiOxu3uDd3WDFQz8SR6Vf+8lW3Q==",
+      "mode": 420,
+      "size": 904
+    }
+  }
+}

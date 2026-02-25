@@ -1,0 +1,55 @@
+{
+  "name": "@react-router/express",
+  "version": "7.9.5",
+  "requiresBuild": false,
+  "files": {
+    "dist/index.js": {
+      "checkedAt": 1771946092014,
+      "integrity": "sha512-EMf7FJT4ro/UPT3xa+4S2LHziaRwGq/90XU8UOtd5z1+zSIhhUU7m+s5KQDh3uKap49HVfQ89Mtu7QM4vkk/PQ==",
+      "mode": 420,
+      "size": 3746
+    },
+    "package.json": {
+      "checkedAt": 1771946092018,
+      "integrity": "sha512-oDkJvrs/BsbXXYPCklOWANkC9ra2F71cgGEBrVng07D3WRxbsHZzaibiqjF/ibTevPWH7cquBD1WkFdLv9NUfQ==",
+      "mode": 420,
+      "size": 1795
+    },
+    "CHANGELOG.md": {
+      "checkedAt": 1771946092026,
+      "integrity": "sha512-JxNDz9ud19timQ/cY/3hevP34fI/I8Z3LraI4ozEJ9S0B2if9++aiMwrk+RxJDUDlBrneDPtgWyhAvHiOwQbrg==",
+      "mode": 420,
+      "size": 13389
+    },
+    "README.md": {
+      "checkedAt": 1771946092034,
+      "integrity": "sha512-uMz+pi1h5mRmSLBOBRXFuRejTrLclM+GfCr4QWRswmmBgYFefuj5eOJvEEK5qIRPLQQKLxRV0qMfLUcUmCfbtg==",
+      "mode": 420,
+      "size": 119
+    },
+    "dist/index.mjs": {
+      "checkedAt": 1771946092038,
+      "integrity": "sha512-SSkjqUicaR+GjD1deSpfSAj0rtpRLccub7rUXX9Jy7q91kxVW2Ur167AM8v3WUIyg4R7DYu2v3wamI+JDyCNZA==",
+      "mode": 420,
+      "size": 2738
+    },
+    "dist/index.d.mts": {
+      "checkedAt": 1771946092046,
+      "integrity": "sha512-rVhVAIXc1nWpFizS4H9G7PYoP3/P6cJjzB+8Xi6Z7VW+jtOkRt2n9m5QcTymZ43F/PSvhp0bYRolS8AFmi+jgQ==",
+      "mode": 420,
+      "size": 1239
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1771946092053,
+      "integrity": "sha512-rVhVAIXc1nWpFizS4H9G7PYoP3/P6cJjzB+8Xi6Z7VW+jtOkRt2n9m5QcTymZ43F/PSvhp0bYRolS8AFmi+jgQ==",
+      "mode": 420,
+      "size": 1239
+    },
+    "LICENSE.md": {
+      "checkedAt": 1771946092064,
+      "integrity": "sha512-qkJUqAOnDOXecjoiEC/0mAYM6stGOmTsCuVeenmknKO1aBxcti6Yf/SlwWamyaYaGuOQKLGQbZU8qZOsjzJPzg==",
+      "mode": 420,
+      "size": 1161
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "turbo-linux-arm64",
+  "version": "2.6.3",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946189714,
+      "integrity": "sha512-b+6xg8upbbVjNDwep+HkMhMPrmISEG0mtW/ftCwbkTX++jaGzZQPvpBVhxVsQTpaPrvQuhKY/SpzO98mJW3sqw==",
+      "mode": 420,
+      "size": 1055
+    },
+    "README.md": {
+      "checkedAt": 1771946189727,
+      "integrity": "sha512-vzymE31PIySqOHs2pnKgO00uMiTo3OfNgtK9mKTlP94aCWtz/LSxVlKDAlYiPMVUA/xsESiiUxqGuDxpeuNlpQ==",
+      "mode": 420,
+      "size": 139
+    },
+    "package.json": {
+      "checkedAt": 1771946189739,
+      "integrity": "sha512-12vyswullcojLr+X1Q8mZMGR7kQM+tdpn+U2S+cT+IjquS8uKRhtyQ/MmJwsC/o4yTnDtU5kW5Ii2U+XFzLWjg==",
+      "mode": 420,
+      "size": 386
+    },
+    "bin/turbo": {
+      "checkedAt": 1771946190101,
+      "integrity": "sha512-C2XwlYU9F6Nz9H4MjIiVCH/GkSSM1GNHbzzQMy6cAYXqL3NW6jUDa+gcBoxW8B/D47LBqDhE4iH46D9ayJ3pIA==",
+      "mode": 493,
+      "size": 31101360
+    }
+  }
+}

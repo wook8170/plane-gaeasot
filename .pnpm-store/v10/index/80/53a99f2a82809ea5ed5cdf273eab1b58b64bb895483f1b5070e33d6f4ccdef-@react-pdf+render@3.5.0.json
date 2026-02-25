@@ -1,0 +1,31 @@
+{
+  "name": "@react-pdf/render",
+  "version": "3.5.0",
+  "requiresBuild": false,
+  "files": {
+    "lib/index.cjs": {
+      "checkedAt": 1771946109640,
+      "integrity": "sha512-oexUOms53e5FY1+IzuqR0md4C5eOMIf+5tVaRfQl/H8Ro+rapR4DfnyHhiI0zTAm3r/+nzyIi/CKg9NQrW+DWA==",
+      "mode": 420,
+      "size": 67047
+    },
+    "lib/index.js": {
+      "checkedAt": 1771946109654,
+      "integrity": "sha512-5S0Aq/+/HF5Mi9EohF0/3jaK4rY1YY8+G8m1pUNvvXWO5afE5XKs2Ru57PX3Ny8AxlinNSmlZCuF9Elf+iNG5A==",
+      "mode": 420,
+      "size": 65568
+    },
+    "package.json": {
+      "checkedAt": 1771946109667,
+      "integrity": "sha512-bzsx30xse7psRZa+9tlNeT1jjxai2PxikXkIO3WEV0C+kSphcjfnBcP9i4CO+juEabYvfO9CQgP9vaNKZ/FprQ==",
+      "mode": 420,
+      "size": 1137
+    },
+    "README.md": {
+      "checkedAt": 1771946109686,
+      "integrity": "sha512-y2SL1QIWzWxR8+SJOJO4jCwEXtipNFfENPZoW9JsNc06RtaMHW18xuRh/sXVRhsDPDOHvZCIC7nr3OcIyPjbVA==",
+      "mode": 420,
+      "size": 3984
+    }
+  }
+}

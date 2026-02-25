@@ -1,0 +1,49 @@
+{
+  "name": "@react-pdf/png-js",
+  "version": "2.3.1",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946108384,
+      "integrity": "sha512-LKbd1oMhrMbOpGi19rpAmqRNt8zlpLGLV7P3lT3jW88KCkuufCBhDL/eR3jhnM/QGaKRgCi5Nvln31OrQUOlNw==",
+      "mode": 420,
+      "size": 1069
+    },
+    "lib/png-js.browser.cjs": {
+      "checkedAt": 1771946108398,
+      "integrity": "sha512-OILp/htJcIdI99SIZABuQUQx62EPlaXykFXrd+RY0wT8zb/+wvpRZTJOLX9+1Dhmgzs2Pc68OQeI05p/BPiNmw==",
+      "mode": 420,
+      "size": 393309
+    },
+    "lib/png-js.cjs": {
+      "checkedAt": 1771946108408,
+      "integrity": "sha512-ATcZ9suMjgwBGfav4o/vCqNdPCp9ccNWhxLemE6op9338nOCJxT0yEh+pjP0NzmYcQAWnOVbCgvYPDJkUqsdEw==",
+      "mode": 420,
+      "size": 11440
+    },
+    "lib/png-js.browser.js": {
+      "checkedAt": 1771946108421,
+      "integrity": "sha512-HaIG+viA+0iikE7A4a/0+GP5NHj2o09zt7BWFkPPd8aFFe6GKN9eYCBaGFa9nKtIXbt8mlmoc2s44uMR+0PMDw==",
+      "mode": 420,
+      "size": 393234
+    },
+    "lib/png-js.js": {
+      "checkedAt": 1771946108428,
+      "integrity": "sha512-j82uuQU4WxHwHJUjd6HqcZzK8IliPiqefkTGzeTy6cfd4xXCyJR8vavAcoCpgrItcupD4T6L40gvP5s2xQ3qXg==",
+      "mode": 420,
+      "size": 11073
+    },
+    "package.json": {
+      "checkedAt": 1771946108437,
+      "integrity": "sha512-VQctwkibpcJGmwKyvoJ5gGK2iKyCl/ppgvmndTE+l9XfOKS55LByA5wBqYTpI0CuC6fVtckJx8SF+nJHYojttg==",
+      "mode": 420,
+      "size": 906
+    },
+    "README.md": {
+      "checkedAt": 1771946108445,
+      "integrity": "sha512-AFDd7qdvFsZHLg8waTOOmP+Og7NMnbDI2Vm6morXb7KA1/DU9hyQBY5UpX+n75kANI2S7uzuNYJp8XipbxzuEA==",
+      "mode": 420,
+      "size": 1836
+    }
+  }
+}

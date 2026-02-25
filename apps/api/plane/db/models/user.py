@@ -74,7 +74,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         related_name="user_avatar",
     )
     # cover image
-    cover_image = models.URLField(blank=True, null=True, max_length=800)
+    cover_image = models.TextField(blank=True, null=True)
     cover_image_asset = models.ForeignKey(
         FileAsset,
         on_delete=models.SET_NULL,
@@ -117,7 +117,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     # timezone
     USER_TIMEZONE_CHOICES = tuple(zip(pytz.common_timezones, pytz.common_timezones))
-    user_timezone = models.CharField(max_length=255, default="UTC", choices=USER_TIMEZONE_CHOICES)
+    user_timezone = models.CharField(max_length=255, default="Asia/Seoul", choices=USER_TIMEZONE_CHOICES)
 
     # email validation
     is_email_valid = models.BooleanField(default=False)
@@ -234,8 +234,8 @@ class Profile(TimeAuditModel):
     is_onboarded = models.BooleanField(default=False)
     # Last visited workspace
     last_workspace_id = models.UUIDField(null=True)
-    # address data
-    billing_address_country = models.CharField(max_length=255, default="INDIA")
+    # billing address data
+    billing_address_country = models.CharField(max_length=255, default="SOUTH KOREA")
     billing_address = models.JSONField(null=True)
     has_billing_address = models.BooleanField(default=False)
     company_name = models.CharField(max_length=255, blank=True)
@@ -248,7 +248,7 @@ class Profile(TimeAuditModel):
     mobile_onboarding_step = models.JSONField(default=get_mobile_default_onboarding)
     mobile_timezone_auto_set = models.BooleanField(default=False)
     # language
-    language = models.CharField(max_length=255, default="en")
+    language = models.CharField(max_length=255, default="ko")
     start_of_the_week = models.PositiveSmallIntegerField(choices=START_OF_THE_WEEK_CHOICES, default=SUNDAY)
     goals = models.JSONField(default=dict)
     background_color = models.CharField(max_length=255, default=get_random_color)

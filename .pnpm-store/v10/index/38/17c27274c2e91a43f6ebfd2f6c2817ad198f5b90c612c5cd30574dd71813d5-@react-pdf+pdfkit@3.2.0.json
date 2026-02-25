@@ -1,0 +1,73 @@
+{
+  "name": "@react-pdf/pdfkit",
+  "version": "3.2.0",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1771946109103,
+      "integrity": "sha512-UgGauqz6BPZBwFtbBtvCxWvzkz1Gm4Md4Ct9ckLP7HSa/8eB9jwDM2ifKGXhY8FTDKGdf63s7Kp8pskLvWdmsQ==",
+      "mode": 420,
+      "size": 1067
+    },
+    "lib/pdfkit.browser.cjs": {
+      "checkedAt": 1771946109120,
+      "integrity": "sha512-5M20/D3gS9TdUQJ8Pzb4hpWR0ss793yVeE9eZW8cdaFsT5AFJ6mgWjt2+/SLxShekDMXLsu2R9zdKKiqIeqdbA==",
+      "mode": 420,
+      "size": 630602
+    },
+    "lib/pdfkit.browser.min.cjs": {
+      "checkedAt": 1771946109135,
+      "integrity": "sha512-ewhEsPclwUMCWccnkR4PvvO11SfpTvpXMRFfDvY13AoavGCbnFge3LIIXJLK04EPrcGkfGpRy7F+oGUt3f8hcw==",
+      "mode": 420,
+      "size": 321757
+    },
+    "lib/pdfkit.cjs": {
+      "checkedAt": 1771946109148,
+      "integrity": "sha512-lCjn6sHnp3cHzcZUi5hMZg5Z+ekLLeLRugewvxPvVWzoMod+gxk5epbluOLi5O37dMk+EyOm95JEhoRZW6EbOw==",
+      "mode": 420,
+      "size": 391921
+    },
+    "lib/pdfkit.min.cjs": {
+      "checkedAt": 1771946109163,
+      "integrity": "sha512-4Dhot7LNUhak47DuOGezIe582UVgjh+LQPP+Kc/WkyW7rgJfgBjR5hE0zV2Y3yX30uoUpenvl82YHnVnO8L0sA==",
+      "mode": 420,
+      "size": 228015
+    },
+    "lib/pdfkit.browser.js": {
+      "checkedAt": 1771946109185,
+      "integrity": "sha512-BrkyWwAcjdNJxrm1ltd3dSNG0OeyP445QSL87FBlVcecyX5rTitEBvyhdrPlSVZkPT8vBlwdK0maOIm+UkRUIA==",
+      "mode": 420,
+      "size": 629067
+    },
+    "lib/pdfkit.browser.min.js": {
+      "checkedAt": 1771946109199,
+      "integrity": "sha512-bmyPQkFgn2e/HDz3CAPVV4Mj13yh3Hu7/H7xufcFxfyo68K1nFu0paPQMWRNPDPmZ6fE34SBQBny/Txd8YicVg==",
+      "mode": 420,
+      "size": 321129
+    },
+    "lib/pdfkit.js": {
+      "checkedAt": 1771946109211,
+      "integrity": "sha512-lN6U+hK2ae4Z8+FtvgArlb/Marb0bxVeFcnZbYXO7DooWaa6X6GkLkvZhp790WeptGTwLt5zqPK0DlDefvg+jg==",
+      "mode": 420,
+      "size": 390369
+    },
+    "lib/pdfkit.min.js": {
+      "checkedAt": 1771946109223,
+      "integrity": "sha512-oJSbCHsV5KM7qJm3HMvbPg8dIEJeTdtWAZGT1F3HiTYdVwEezX18eBIjuc55L1ZIO148v3jA/H5gzO+MThOkqw==",
+      "mode": 420,
+      "size": 227344
+    },
+    "package.json": {
+      "checkedAt": 1771946109235,
+      "integrity": "sha512-GFstVNX9p7KfqEziPLQmzjcXAS+mWSJWlO7lgAEQxxkiw5Wj0hKZ68DUYWRrdIqoOEANWYHa7ya3j1TyuW+nig==",
+      "mode": 420,
+      "size": 1328
+    },
+    "README.md": {
+      "checkedAt": 1771946109247,
+      "integrity": "sha512-GEDbr4hhtXGaEC2PrDOhrvg1uSq4A8OZrnRpGDgQM7JAm//n/phsCjC3Sw4lRZ8CTshH5T6BTEa+e6KTShFsiw==",
+      "mode": 420,
+      "size": 2777
+    }
+  }
+}

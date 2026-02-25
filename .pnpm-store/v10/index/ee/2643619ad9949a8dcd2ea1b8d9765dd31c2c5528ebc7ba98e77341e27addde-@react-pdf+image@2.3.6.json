@@ -1,0 +1,43 @@
+{
+  "name": "@react-pdf/image",
+  "version": "2.3.6",
+  "requiresBuild": false,
+  "files": {
+    "lib/index.browser.cjs": {
+      "checkedAt": 1771946109404,
+      "integrity": "sha512-x8VJ9TDefP2PQb5neMujXsSWMj+VIQH8Ea0g/6W/KSfn6ltmYz8CLTAUNsJcbu20asatTvwolveixXzjIYW0zA==",
+      "mode": 420,
+      "size": 63969
+    },
+    "lib/index.cjs": {
+      "checkedAt": 1771946109540,
+      "integrity": "sha512-5XSano0kGi8p3TU+jLRJUPO9T8+rvt8KXxgkB1e22pXn7DYIxrBGwFdvERrrAUlvfDYVDfjppJ6mt048DwAnuA==",
+      "mode": 420,
+      "size": 10924
+    },
+    "lib/index.browser.js": {
+      "checkedAt": 1771946109562,
+      "integrity": "sha512-+6wqqxdDZJ08KwjC5nm4B7LiAN3ouFWE5MFds1GU6+yIGgPOSOx9y6hfp8ULqNyaZNxZIjs4bx6wzbk+4rz1Hg==",
+      "mode": 420,
+      "size": 63141
+    },
+    "lib/index.js": {
+      "checkedAt": 1771946109622,
+      "integrity": "sha512-Gqw/fpC6CUxPviLSHFLdEYXJd+W71Jo6FnU/36Lb0DyCrMD59swwvtVltRpN09Tomo5vIBH9TqMaaMHbTQgmDw==",
+      "mode": 420,
+      "size": 9856
+    },
+    "package.json": {
+      "checkedAt": 1771946109644,
+      "integrity": "sha512-1N2xR92Kzr/iya5Sv98UASAfCOXGN+k7ZE/wTl7QOpJEEZhEo9jNipBi0EybEw2LVIf0glvK4zkz/RekGclMmg==",
+      "mode": 420,
+      "size": 1054
+    },
+    "README.md": {
+      "checkedAt": 1771946109656,
+      "integrity": "sha512-L+zhLt9OnWMKPGI4fEAvj1crgamM43DUZYA/oRcAqrAvXWCrYddLt5sFRIo8LSnRIaEAifviWThiFEvMjne0ag==",
+      "mode": 420,
+      "size": 173
+    }
+  }
+}
