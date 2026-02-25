@@ -23,6 +23,13 @@ export default {
     favorites: "즐겨찾기",
     pro: "프로",
     upgrade: "업그레이드",
+    stickies: "스티키",
+    "sidebar.stickies": "스티키",
+    general: "일반",
+    features: "기능",
+    "work-structure": "작업 구조",
+    execution: "실행",
+    nav_project_settings: "프로젝트 설정으로 이동",
   },
   auth: {
     common: {
@@ -184,6 +191,10 @@ export default {
   yes: "예",
   no: "아니오",
   ok: "확인",
+  general: "일반 설정",
+  features: "기능 설정",
+  "work-structure": "작업 구조",
+  execution: "실행 단계",
   name: "이름",
   description: "설명",
   search: "검색",
@@ -1865,7 +1876,11 @@ export default {
     members: {
       label: "멤버",
       project_lead: "프로젝트 리드",
+      project_lead_description: "프로젝트의 리드를 선택합니다.",
       default_assignee: "기본 담당자",
+      default_assignee_description: "프로젝트의 기본 담당자를 선택합니다.",
+      guest_access: "게스트 접근",
+      guest_access_description: "게스트가 모든 프로젝트 작업 항목을 볼 수 있도록 허용합니다.",
       guest_super_permissions: {
         title: "게스트 사용자에게 모든 작업 항목에 대한 보기 권한 부여:",
         sub_heading: "이렇게 하면 게스트가 모든 프로젝트 작업 항목에 대한 보기 권한을 갖게 됩니다.",
@@ -1877,6 +1892,8 @@ export default {
       },
     },
     states: {
+      heading: "상태",
+      description: "작업 항목의 진행 상황을 추적하기 위해 워크플로우 상태를 정의하고 사용자 정의하세요.",
       describe_this_state_for_your_members: "멤버를 위해 이 상태를 설명하세요.",
       empty_state: {
         title: "{groupKey} 그룹에 사용할 수 있는 상태 없음",
@@ -1884,6 +1901,8 @@ export default {
       },
     },
     labels: {
+      heading: "레이블",
+      description: "작업 항목을 분류하고 구성하기 위해 사용자 정의 레이블을 생성하세요.",
       label_title: "레이블 제목",
       label_title_is_required: "레이블 제목이 필요합니다",
       label_max_char: "레이블 이름은 255자를 초과할 수 없습니다",
@@ -1893,8 +1912,9 @@ export default {
     },
     estimates: {
       label: "추정",
+      heading: "추정",
       title: "프로젝트 추정 활성화",
-      description: "팀의 복잡성과 작업량을 전달하는 데 도움이 됩니다.",
+      description: "팀의 복잡성과 작업량을 전달하는 데 도움이 됩니다. 작업 항목당 투입되는 노력의 양을 정의하세요.",
       no_estimate: "추정 없음",
       new: "새 추정 시스템",
       create: {
@@ -1975,6 +1995,8 @@ export default {
       },
     },
     automations: {
+      heading: "자동화",
+      description: "반복적인 작업을 자동화하여 팀의 효율성을 높이세요",
       label: "자동화",
       "auto-archive": {
         title: "완료된 작업 항목 자동 보관",
@@ -2696,4 +2718,15 @@ export default {
     close_button: "네비게이션 패널 닫기",
     outline_floating_button: "개요 열기",
   },
+  project_members: {
+    full_name: "전체 이름",
+    display_name: "표시 이름",
+    email: "이메일",
+    role: "역할",
+    joining_date: "가입일",
+  },
+  customize_navigation: "내비게이션 사용자 정의",
+  accordion_navigation_control: "사이드바 내비게이션",
+  horizontal_navigation_bar: "탭 내비게이션",
+  show_limited_projects_on_sidebar: "사이드바에 제한된 프로젝트 표시",
 } as const;
